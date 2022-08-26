@@ -1,83 +1,108 @@
-// loading animation
-$(document).ready(function(){
-    // $(".all-contant").load(function(){
-        $(".loader").css("display", "none");
-        $(".all-contant").css("display", "block");
-    // });
-});
+$(document).ready(function () {
+    'use strict';
 
-// click to modal open in portfolio
-$(document).ready(function(){
-    $(document).on('click', '.toggle', function(event) {
-        event.preventDefault();
-        var target = $(this).data('target');
-        $('#' + target).toggleClass('hide');
+    //********* page loader js
+
+    setTimeout(function () {
+        $('.loader_div').fadeToggle();
+    }, 1500);
+
+    //********* typed js
+    var element = $(".banner-animated-text");
+
+    $(function(){
+       element.typed({
+           strings: ["Web Designer.", "Web Developer.", "Freelancer."],
+           loop: true,
+           typeSpeed: 90
+       });
     });
 
-    // jQuery Validate Plugin
-    $("#contactForm").validate({
-        rules: {
-            name: {
-                required: true,
-                maxlength: 255,
-            },
-            subject: {
-                required: true,
-                maxlength: 255,
-            },
-            number: {
-                required: true,
-                number: true,
-                minlength: 6,
-                maxlength: 13,
-            },
-            email: {
-                required: true,
-                email: true,
-                maxlength: 255,
-            },
-            message: {
-                required: true,
-                maxlength: 500,
-            },
-        },
-        messages: {
-            name: {
-                required: "Please enter a name",
-                maxlength: "Max length is 255",
-            },
-            
-            subject: {
-                required: "Please enter a subject",
-                maxlength: "Max length is 255",
-            },
-            number: {
-                required: "Please enter a phone number",
-                number: "Your Phone number not valid",
-                minlength: "Min length is 6",
-                maxlength: "Max length is 13",
-            },
-            email: {
-                required: "Please enter a Email Address",
-                email: "Your email not valid",
-                maxlength: "Max length is 255",
-            },
-            message: {
-                required: "Please enter your Message",
-                maxlength: "Max length is 500",
-            },
+    //********** menu background color change while scroll
+    $(window).on('scroll', function () {
+        var menu_area = $('.header');
+        if ($(window).scrollTop() > 10) {
+            menu_area.addClass('sticky_navigation');
+        } else {
+            menu_area.removeClass('sticky_navigation');
         }
+    });
+
+    //********** menu hides after click (mobile menu)
+    $(document).on('click', '.navbar-collapse.in', function (e) {
+        if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
+            $(this).collapse('hide');
+        }
+    });
+
+
+    //*********** scrollspy js
+    $('body').scrollspy({
+        target: '.navbar-collapse',
+        offset: 195
+    });
+
+    //************ smooth scroll js
+    $('a.js-scroll').on("click", function (e) {
+        e.preventDefault();
+        var anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $(anchor.attr('href')).offset().top - 50
+        }, 1000);
+    });
+
+    
+    //************* Mixit Up
+    $('.portfolio-all').mixItUp();
+
+
+    //************* Owl Carousel
+    $("#owl-testimonial-slider").owlCarousel({
+        items: 1,
+        itemsDesktop: [1000, 1],
+        itemsDesktopSmall: [979, 1],
+        itemsTablet: [768, 1],
+        pagination: true,
+        navigation: false,
+        slideSpeed: 1000,
+        singleItem: false,
+        autoplay: true,
+        loop: true
     });
     
-    // SMTPS.js Plugin intriget
-    $(document).on('click', '#send-message', function() {
-        if($("#contactForm").valid() == true) {
-            alert("done");
-        }
-        else {
-            alert("error");
-        }
+    //************ Partner Carousel
+    var $clientCarousel = $('#tools-carousel');
+    if ($clientCarousel.length > 0) {
+        $clientCarousel.owlCarousel({
+            loop: true,
+            center: true,
+            margin: 0,
+            autoplay: true,
+            dots: false,
+            autoplayTimeout: 2500,
+            smartSpeed: 250,
+            responsive: {
+                0: {
+                    items: 3
+                },
+                768: {
+                    items: 3
+                },
+                1170: {
+                    items: 5
+                }
+            }
+        });
+    }
 
+
+    //*************** About Tab
+    $(".btn-pref .btn").click(function () {
+        $(".btn-pref .btn").removeClass("btn-primary").addClass("btn-default");
+        $(this).removeClass("btn-default").addClass("btn-primary");
     });
+
+
+
 
 });

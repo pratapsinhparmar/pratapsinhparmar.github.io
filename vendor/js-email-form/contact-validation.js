@@ -55,7 +55,7 @@ $("#submit").click(function() {
             var Body='Name: '+name+'<br>Email: '+email+'<br>Phone No.: '+number+'<br>Subject: '+subject+'<br>Message: '+message;
             
             Email.send({
-                SecureToken : "a2a97aea-b709-45a8-9f36-1f39ff351461",
+                SecureToken : "9bc6a945-2cb6-4da3-8050-56377dfade60",
                 To : 'pratapsinhparmar.contact@gmail.com',
                 From : "hostingwork.space@gmail.com",
                 Subject : "New message on contact from "+name,

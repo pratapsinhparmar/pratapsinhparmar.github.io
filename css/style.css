@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   width: 300px;
   transition: all ease-in-out 0.5s;
-  z-index: 9997;
+  z-index: 2;
   transition: all 0.5s;
   padding: 0 15px;
   background: #040b14;
@@ -112,6 +112,17 @@ h1, h2, h3, h4, h5, h6 {
 
 #main {
   margin-left: 300px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#header::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#header {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 @media (max-width: 1199px) {
@@ -555,7 +566,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -952,7 +963,7 @@ section {
   left: 0;
   bottom: 0;
   width: 300px;
-  z-index: 9999;
+  z-index: 2;
   background: #040b14;
 }
 

@@ -1,0 +1,63 @@
+ADMIN PANEL
+
+    - Dashboard (Show Records)
+
+    - Inquiries (Tabular Format)
+        .Id
+        .Name (text)
+        .Subject (text)
+        .Number (Number)
+        .Email (mail)
+        .Message (textarea)
+        .Action(Edit/Delete)
+    
+    - Skill 
+        .Id
+        .technology icon (img)
+        .Skill Name (text)
+        .Action
+    
+    - Renking  
+        .Id
+        .technology icon (img)
+        .Skill Name (text)
+        .Action
+
+
+    - Education (Tabular Formate)(Add/Edit/Delete)
+        .Id
+        .Education Year (text)
+        .Education Title (text)
+        .Education Discription (textarea)
+        .Action
+
+    - Expiriance (Tabular Formate)(Add/Edit/Delete)
+        .Id
+        .Education Year (month-year)
+        .Education Title (text)
+        .Education Discription (textarea)
+        .Action
+
+
+    - Portfolio (Tabular Formate)(Add/Edit/Delete)
+        .Id
+        .Project Name (text)
+        .Project Description (textarea)
+        .Technology (text)
+        .Project Link (URL)
+        .Action
+
+    - Settings
+        - SEO Settings
+        
+        - Profile Settings
+            .Id
+            .Name (text)
+            .Freelancer (Dropdown) (Availabke/Not-Availabke)
+            .Email (Email)
+            .Lang
+
+        - Other Settings (Edit Field)
+            .Name
+            .Username/Email
+            .Password

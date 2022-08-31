@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Pratapsinh Parmar - Website Developer</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <span class="all-contant">
+        <!-- navbar section starts  -->
+        <nav class="navbar">
+            <a href="index.html"> <i class="fas fa-home"></i> <span>home</span> </a>
+            <a href="about.html"> <i class="fas fa-user"></i> <span>about</span> </a>
+            <a href="portfolio.html"> <i class="fas fa-briefcase"></i> <span>portfolio</span> </a>
+            <a href="contact.html"> <i class="fas fa-address-book"></i> <span>contact</span> </a>
+        </nav>
+        <!-- navbar section ends -->
+
+        <!-- contact section starts  -->
+        <section class="contact">
+            <h1 class="heading"> contact <span>me</span> </h1>
+        
+            <div class="box-container">
+                <a href="tel:9924066865">
+                    <div class="box">
+                        <i class="fas fa-phone"></i>
+                        <h3>CALL</h3>
+                        <p>+91 992 406 6865</p>
+                    </div>
+                </a>
+                <a href="javascript:void(0)">
+                    <div class="box">
+                        <i class="fas fa-map"></i>
+                        <h3>ADDRESS</h3>
+                        <p>Gujarat, India - 362225</p>
+                    </div>
+                </a>
+                <a href="mailto:pratapsinh.work@gmail.com">
+                    <div class="box mail-box">
+                        <i class="fas fa-envelope"></i>
+                        <h3>MAIL</h3>
+                        <p>pratapsinh.work@gmail.com</p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="row">
+                <div class="info-container">
+                    <h1>get in touch</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorem sunt sapiente vel minus eaque voluptate fugit corrupti omnis tempora?</p>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d388630.43592910504!2d70.32096364344441!3d21.333099362636396!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sgu!2sin!4v1638553793815!5m2!1sgu!2sin"></iframe>
+                    </div>
+                    <div class="share">
+                        <a href="#" target="_blank" class="fab fa-twitter"></a>
+                        <a href="#" target="_blank" class="fab fa-facebook-f"></a>
+                        <a href="#" target="_blank" class="fab fa-instagram"></a>
+                        <a href="#" target="_blank" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+
+                <form id="contactForm" action="javascript:void(0)">
+                    <div class="inputBox">
+                        <div class="input-fiels">
+                            <input type="text" name="name" placeholder="Name"><br>
+                            <label id="name-error" class="error" for="name"></label>
+                        </div>
+                        <div class="input-fiels">
+                            <input type="text" name="subject" placeholder="Subject"><br>
+                            <label id="subject-error" class="error" for="subject"></label>
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <div class="input-fiels">
+                            <input type="number" name="number" placeholder="Number">
+                        </div>
+                        <div class="input-fiels">
+                            <input type="email" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <textarea name="message" placeholder="Message" cols="30" rows="10"></textarea>
+                    <div class="grid-sub">
+                        <div class="field">
+                            <button type="submit" id="send-message" class="btn">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- contact section ends -->
+    </span>
+
+    <!-- Loader section -->
+    <div class="loader" >		    
+        <div class="flash">
+            <span class="slide-1">Pratapsinh Parmar</span>
+            <span class="slide-2">Front End Developer</span>
+        </div>
+    </div>
+
+    <!-- High light -->
+    <!-- <p class="high-light-text">Location :- Work From Home Only!</p> -->
+
+    <!-- JS Section -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

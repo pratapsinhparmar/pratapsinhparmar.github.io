@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
 }
 
+
 #header .profile img {
   margin: 15px auto;
   display: block;
@@ -181,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 .dawnload-cv {
   background: #149ddd;
   border: 0;
-  display: block;
+  display: inline-block;
   margin: 15px auto;
   padding: 5px 35px;
   color: #fff;

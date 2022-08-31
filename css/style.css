@@ -25,6 +25,105 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
 }
 
+
+
+/* Three Dots CSS */
+.dot-elastic {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #149ddd;
+  color: #9880ff;
+  animation: dotElastic 1s infinite linear;
+}
+
+.contact-msg .stage {
+  display: flex;
+  justify-content: center;
+}
+
+.dot-elastic::before, .dot-elastic::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-elastic::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #149ddd;
+  color: #9880ff;
+  animation: dotElasticBefore 1s infinite linear;
+}
+
+.dot-elastic::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #149ddd;
+  color: #9880ff;
+  animation: dotElasticAfter 1s infinite linear;
+}
+
+@keyframes dotElasticBefore {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1.5);
+  }
+  50% {
+    transform: scale(1, 0.67);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dotElastic {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 1.5);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dotElasticAfter {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 0.67);
+  }
+  75% {
+    transform: scale(1, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -817,18 +916,22 @@ section {
   font-size: 13px;
 }
 
-.contact .js-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
+.contact-msg {
+  margin-left: 10px;
 }
 
-.contact .js-email-form .error-message br + br {
-  margin-top: 25px;
+.contact-msg .snippet {
+  display: none;
+  margin-bottom: 20px;
 }
+
+.contact-result-text {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
 
 .contact .js-email-form .sent-message {
   display: none;

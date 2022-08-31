@@ -48,7 +48,7 @@ $(document).ready(function() {
     $(".submit").click(function() {
         
         if($(".js-email-form").valid()) {
-            // $(".contact-msg").find(".snippet").css("display", "block");
+            $(".contact-msg").find(".snippet").css("display", "block");
 
             // SMTP JS
             var name = $('#name').val();
@@ -202,18 +202,16 @@ $(document).ready(function() {
             }).then(
                 message =>{
                     if(message=='OK'){
-                        // $(".contact-msg").find(".snippet").css("display", "none");
-                        // $(".contact-msg").find(".contact-result-text").css("color", "#4CAF50");
-                        // $(".contact-msg").find(".contact-result-text").text("Your message has been successfully sent!");
-                        console.log("Your message has been successfully sent!");
+                        $(".contact-msg").find(".snippet").css("display", "none");
+                        $(".contact-msg").find(".contact-result-text").css("color", "#4CAF50");
+                        $(".contact-msg").find(".contact-result-text").text("Your message has been successfully sent!");
                         $(".js-email-form").trigger("reset");
                         
                     }
                     else{
-                        // $(".contact-msg").find(".snippet").css("display", "none");
-                        // $(".contact-msg").find(".contact-result-text").css("color", "#f00");
-                        // $(".contact-msg").find(".contact-result-text").text("Sorry, cannot send the message");
-                        console.log("Sorry, cannot send the message");
+                        $(".contact-msg").find(".snippet").css("display", "none");
+                        $(".contact-msg").find(".contact-result-text").css("color", "#f00");
+                        $(".contact-msg").find(".contact-result-text").text("Sorry, cannot send the message");
                         console.error (message);
                         $(".js-email-form").trigger("reset");
                     }

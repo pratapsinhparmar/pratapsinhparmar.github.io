@@ -66,7 +66,6 @@ $(document).ready(function() {
             Body += "a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }";
             Body += "div[style*='margin: 16px 0;'] { margin: 0 !important; }";
             Body += "</style>";
-            Body += "body";
             Body += "<body style='background-color: #f7f5fa; margin: 0 !important; padding: 0 !important;'>";
             Body += "<table border='0' cellpadding='0' cellspacing='0' width='100%' style='background-image:url('https://techstopsolution.github.io/img/hero-bg.jpg'); width: 100%;'>";
             Body += "<tr>";

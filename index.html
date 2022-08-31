@@ -489,7 +489,7 @@
                             </div>
                         </div>
                         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                            <form action="javascript:sendMail()" method="post" class="php-email-form">
+                            <form action="javascript:void();" method="post" class="js-email-form">
                                 <div class="row">
                                     <div class="form-group col-md-6">
                                         <label for="name">Your Name<span class="star-red"> *</span></label>
@@ -518,7 +518,7 @@
                                     <div class="error-message" id="errorMessage"></div>
                                     <div class="sent-message" id="sentMessage">Your message has been sent. Thank you!</div>
                                 </div>
-                                <div class="text-center"><button type="submit" id="submit">Send Message</button></div>
+                                <div class="text-center"><button type="submit" class="submit">Send Message</button></div>
                             </form>
                         </div>
                     </div>
@@ -595,7 +595,6 @@
         <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="vendor/glightbox/js/glightbox.min.js"></script>
         <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="vendor/js-email-form/contact-validation.js"></script>
         <script src="vendor/purecounter/purecounter.js"></script>
         <script src="vendor/swiper/swiper-bundle.min.js"></script>
         <script src="vendor/typed.js/typed.min.js"></script>
@@ -604,10 +603,12 @@
         <!-- Template Main JS File -->
         <script src="js/main.js"></script>
         <script src="js/script.js"></script>
-        
          
         <!-- SMTP JS CDN Link -->
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        
+        <script src="vendor/js-email-form/jquery.validate.min.js"></script>
+        <script src="vendor/js-email-form/additional-methods.min.js"></script>
+        <script src="vendor/js-email-form/smtp.js"></script>
+        <script src="vendor/js-email-form/contact.js"></script>
+
     </body>
 </html>

@@ -546,22 +546,17 @@ a.link-gradient {
   }
 }
 
-.help-block {
-  position: absolute;
+
+.error {
+  color: var(--color-error);
   font-size: 0.75rem;
-  line-height: 1.4;
-  padding-top: 0.3125rem;
-  padding-left: 0.375rem;
+  padding-left: 15px;
 }
 
 @media only screen and (max-width: 580px) {
-  .help-block {
+  .error {
     font-size: 0.6875rem;
   }
-}
-
-.with-errors {
-  color: var(--color-error);
 }
 
 .has-error input,
@@ -571,7 +566,7 @@ a.link-gradient {
   border-color: var(--color-error);
 }
 
-#validator-contact {
+.contact-result-text {
   font-size: 0.875rem;
   margin-top: 1rem;
 }
@@ -719,6 +714,12 @@ select,
   color: var(--color-heading);
   font-weight: 500;
 }
+
+.progress .progress-text div {
+  margin-left: auto;
+}
+
+
 
 .btn {
   background: var(--color-gradient-border-gray);
@@ -3359,4 +3360,125 @@ button:focus {
 .medium-zoom-image--opened {
   border-radius: 0.0625rem;
   height: 100%;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Contact Us Send */
+.contact-msg {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 25px;
+}
+
+.snippet {
+  display: none;
+}
+
+.dot-elastic {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: var(--color-gradient);
+  color: #9880ff;
+  animation: dotElastic 1s infinite linear;
+}
+
+.contact-msg .stage {
+  display: flex;
+  justify-content: center;
+}
+
+.dot-elastic::before, .dot-elastic::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-elastic::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: var(--color-gradient);
+  color: #9880ff;
+  animation: dotElasticBefore 1s infinite linear;
+}
+
+.dot-elastic::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: var(--color-gradient);
+  color: #9880ff;
+  animation: dotElasticAfter 1s infinite linear;
+}
+
+@keyframes dotElasticBefore {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1.5);
+  }
+  50% {
+    transform: scale(1, 0.67);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dotElastic {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 1.5);
+  }
+  75% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes dotElasticAfter {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1, 0.67);
+  }
+  75% {
+    transform: scale(1, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }

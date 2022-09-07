@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>vCard - Contact</title>
+		<title>vCard - Post</title>
 
 		<!-- Meta Data -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,12 +38,11 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		
-		<!-- Mapbox-->
-		<link href='css/mapbox-gl.css' rel='stylesheet' />
-		<script src='js/mapbox-gl.js'></script>
-		
 	</head>
 	<body>
+		<!-- Scroll Indicator -->
+		<div class="scroll-line"></div>
+
 		<main class="main">
 			<div class="container gutter-top gutter-bottom">
 				<div class="row sticky-parent">
@@ -70,7 +69,7 @@
 									<!-- Email -->
 									<li class="details-info__item">
 										<span class="box box--s2 icon-box"><i class="font-icon icon-envelope"></i></span>
-										<div class="contacts-block__info">
+										<div class="details-info__info">
 											<span class="overhead">Email</span>
 											<a class="text-overflow" href="mailto:ricardo@example.com" title="ricardo@example.com">ricardo@example.com</a>
 										</div>
@@ -78,7 +77,7 @@
 									<!-- Phone -->
 									<li class="details-info__item">
 										<span class="box box--s2 icon-box"><i class="font-icon icon-phone"></i></span>
-										<div class="contacts-block__info">
+										<div class="details-info__info">
 											<span class="overhead">Phone</span>
 											<span class="text-overflow" title="+1 (070) 123-4567">+1 (070) 123-4567</span>
 										</div>	
@@ -86,7 +85,7 @@
 									<!-- Birthday -->
 									<li class="details-info__item">
 										<span class="box box--s2 icon-box"><i class="font-icon icon-calendar"></i></span>
-										<div class="contacts-block__info">
+										<div class="details-info__info">
 											<span class="overhead">Birthday</span>
 											<span class="text-overflow" title="March 12, 1995">March 12, 1995</span>
 										</div>
@@ -94,7 +93,7 @@
 									<!-- Location -->
 									<li class="details-info__item">
 										<span class="box box--s2 icon-box"><i class="font-icon icon-location"></i></span>
-										<div class="contacts-block__info">
+										<div class="details-info__info">
 											<span class="overhead">Location</span>
 											<span class="text-overflow" title="San-Francisco, USA">San-Francisco, USA</span>
 										</div>
@@ -120,50 +119,136 @@
 								<ul class="nav">
 									<li class="nav__item"><a href="index.html">About</a></li>
 									<li class="nav__item"><a href="resume.html">Resume</a></li>
-									<li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
+									<li class="nav__item"><a class="active" href="portfolio.html">Portfolio</a></li>
 									<li class="nav__item"><a href="blog.html">Blog</a></li>
-									<li class="nav__item"><a class="active" href="contact.html">Contact</a></li>
+									<li class="nav__item"><a href="contact.html">Contact</a></li>
 								</ul>
 							</div>
 							
 							<!-- About -->
-							<div class="pb-0 pb-sm-2">
-								<h1 class="title title--h1 title__separate">Contact</h1>
+							<div class="pb-3">
+								<h1 class="title title--h1 title__separate">Portfolio</h1>
 							</div>
 
-							<!-- Contact -->
-							<div class="map" id="map"></div>
-							<h2 class="title title--h2">Contact Form</h2>
-								
-							<form id="contact-form" class="contact-form" data-toggle="validator">
-								<div class="row">
-									<div class="form-group col-12 col-md-6">
-										<input type="text" class="input form-control" id="nameContact" name="nameContact" placeholder="Full name" required="required" autocomplete="on" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')">
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="form-group col-12 col-md-6">
-										<input type="email" class="input form-control" id="emailContact" name="emailContact" placeholder="Email address" required="required" autocomplete="on" oninvalid="setCustomValidity('Email is incorrect')" onkeyup="setCustomValidity('')">
-										<div class="help-block with-errors"></div>
-									</div>
-									<div class="form-group col-12 col-md-12">
-										<textarea class="textarea form-control" id="messageContact" name="messageContact" placeholder="Your Message"  rows="4" required="required" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')"></textarea>
-										<div class="help-block with-errors"></div>
-									</div>
+							<!-- Project details -->
+							<a class="btn-back" href="portfolio.html"><i class="feathericon-arrow-left"></i>Back Portfolio</a>
+
+							<header class="header-project">
+								<h1 class="title title--h1">Moonboard – Admin Dashboard & <br>UI Kit + Charts Kit</h1>
+								<div class="header-project__image-wrap">
+									<img class="cover lazyload" src="img/projects/project-1.jpg" alt="" />
 								</div>
-								<div class="row">
-									<div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-start">
-										<div id="validator-contact" class="hidden"></div>
+							</header>
+
+							<ul class="details-info details-info--inline">
+								<!-- Client -->
+								<li class="details-info__item">
+									<span class="box box--s2 icon-box"><i class="font-icon feathericon-user"></i></span>
+									<div class="details-info__info">
+										<span class="overhead">Client</span>
+										ArtTemplate
 									</div>
-									<div class="col-12 col-md-6 order-1 order-md-2 text-end">
-										<button type="submit" class="btn"><i class="font-icon icon-send"></i> Send Message</button>
+								</li>
+								<!-- Category -->
+								<li class="details-info__item">
+									<span class="box box--s2 icon-box"><i class="font-icon feathericon-layers"></i></span>
+									<div class="details-info__info">
+										<span class="overhead">Category</span>
+										Web Design
 									</div>
+								</li>
+								<!-- Date -->
+								<li class="details-info__item">
+									<span class="box box--s2 icon-box"><i class="font-icon icon-calendar"></i></span>
+									<div class="details-info__info">
+										<span class="overhead">Date</span>
+										27 June, 2021
+									</div>
+								</li>
+							</ul>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus, arcu tortor, feugiat in elit. Hendrerit sit suspendisse eget cras suspendisse aenean. Donec nunc quis sit augue malesuada nullam sit tincidunt. Dictum vel egestas pellentesque ut nunc lorem ut tortor at.</p>
+							<p>Scelerisque ipsum pretium augue neque at. Bibendum semper ipsum arcu, nibh blandit facilisi. Quis dictum ornare ultricies porta lectus in metus, purus facilisi. Egestas amet, enim in maecenas ultrices. Ornare donec volutpat enim at eget habitant eleifend. Enim, nisl porttitor egestas etiam a, magna neque.</p>
+
+							<div class="swiper-container js-carousel-project">
+								<div class="swiper-wrapper project-gallery">
+									<!-- Item -->
+									<figure class="swiper-slide swiper-slide-project">
+										<a id="first" title="click to zoom-in" href="img/projects/Moonboard-1.jpg" data-size="1920x1080">
+											<img class="lazyload" src="img/projects/Moonboard-1.jpg" alt="" />
+										</a>
+									</figure>
+											
+									<!-- Item -->
+									<figure class="swiper-slide swiper-slide-project">
+										<a title="click to zoom-in" href="img/projects/Moonboard-2.jpg" data-size="1920x1080">
+											<img class="lazyload" src="img/projects/Moonboard-2.jpg" alt="" />
+										</a>
+									</figure>
+		
+									<!-- Item -->
+									<figure class="swiper-slide swiper-slide-project">
+										<a title="click to zoom-in" href="img/projects/Moonboard-3.jpg" data-size="1920x1080">
+											<img class="lazyload" src="img/projects/Moonboard-3.jpg" alt="" />
+										</a>
+									</figure>
+		
+									<!-- Item -->
+									<figure class="swiper-slide swiper-slide-project">
+										<a title="click to zoom-in" href="img/projects/Moonboard-4.jpg" data-size="1920x1080">
+											<img class="lazyload" src="img/projects/Moonboard-4.jpg" alt="" />
+										</a>
+									</figure>
 								</div>
-							</form>
+								<div class="swiper-pagination"></div>
+							</div><!-- /swiper-container -->
+
 						</div><!-- /box-outer -->
-					</div><!-- /col -->
+					</div><!-- /Content -->
 				</div><!-- /sticky-parent -->
 			</div><!-- /container -->
 		</main>
+		
+		<!-- PhotoSwipe -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="pswp__bg"></div>
+
+			<div class="pswp__scroll-wrap">
+				<div class="pswp__container">
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+				</div>
+
+				<div class="pswp__ui pswp__ui--hidden">
+					<div class="pswp__top-bar">
+						<div class="pswp__counter"></div>
+						<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+						<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+						<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+						<div class="pswp__preloader">
+							<div class="pswp__preloader__icn">
+								<div class="pswp__preloader__cut">
+									<div class="pswp__preloader__donut"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+					<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+						<div class="pswp__share-tooltip"></div>
+					</div>
+	
+					<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+					<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+	
+					<div class="pswp__caption">
+						<div class="pswp__caption__center"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<div class="back-to-top"></div>
 
@@ -171,9 +256,6 @@
 		<script src="js/jquery-3.4.1.min.js"></script>
 		<script src="js/plugins.min.js"></script>
 		<script src="js/common.js"></script>
-
-		<!-- Mapbox init -->
-		<script src="js/mapbox.init.js"></script>
 
 	</body>
 

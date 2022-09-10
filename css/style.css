@@ -3375,6 +3375,11 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
+
+.header-project__image-wrap img {
+  object-position: top;
+}
+
 /* Contact Us Send */
 .contact-msg {
   display: flex;

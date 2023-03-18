@@ -568,7 +568,6 @@ a.link-gradient {
 
 .contact-result-text {
   font-size: 0.875rem;
-  margin-top: 1rem;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -3388,11 +3387,12 @@ input[type=number] {
   display: flex;
   align-items: center;
   height: 100%;
-  padding-left: 25px;
+  padding-left: 10px;
 }
 
 .snippet {
   display: none;
+  margin-left: 15px;
 }
 
 .dot-elastic {
@@ -3488,5 +3488,32 @@ input[type=number] {
   }
   100% {
     transform: scale(1, 1);
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .box-outer {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-result-text {
+    width: 95%;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .contact-msg {
+    display: unset;
+    padding-left: 0px;
+  }
+  .contact-msg .snippet {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .box-outer {
+    margin-bottom: 15px;
   }
 }

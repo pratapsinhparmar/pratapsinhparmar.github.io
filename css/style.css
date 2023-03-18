@@ -1804,6 +1804,7 @@ button:focus {
   border-radius: var(--radius-16);
   height: 23.75rem;
   margin-bottom: 2rem;
+  overflow: hidden;
   position: relative;
   direction: ltr;
 }

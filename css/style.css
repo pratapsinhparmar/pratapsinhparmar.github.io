@@ -1934,13 +1934,14 @@ button:focus {
 }
 
 .gallery-grid__image-wrap::after {
-  content: '\e95f';
-  /* content: '\f0c1'; */
+  /* content: '\e95f'; */
+  content: '\f0c1';
   background: rgba(32, 32, 33, 0.8);
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
   border-radius: var(--radius-12);
-  font-family: 'feather' !important;
+  /* font-family: 'feather' !important; */
+  font-family: 'fontawesome' !important;
   font-size: 1.125rem;
   color: var(--color-accent) !important;
   display: -webkit-box;

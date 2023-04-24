@@ -1,0 +1,262 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .main-paregraph-down-padding {
+        padding: 0 150px;
+    }
+    .aboutus-img img {
+        margin: 60px 0px;
+    }
+
+    .contact-details-items {
+        padding: 30px 5px;
+    }
+}
+
+    /* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-top-bottom-spacing {
+        padding: 50px 0;
+    }
+    .navbar-nav {
+        margin: 15px 0;
+    }
+    .navbar-brand {
+        padding: 20px 0;
+    }
+    .navbar-nav > li > a {
+        line-height: 0;
+    }
+    .nav > li > a {
+        padding: 10px 8px;
+    }
+    .banner-animated-text, .typed-cursor {
+        font-size: 4.5em;
+    }
+    .aboutus-contant p {
+        line-height: 1.7em;
+    }
+    .main-paregraph-down-padding {
+        padding: 0;
+    }
+    .aboutus .btn-group .btn {
+        padding: 30px 15px;
+    }
+    .services-items {
+        margin-bottom: 30px;
+    }
+    .portfolio nav ul li {
+        padding: 5px 15px;
+        margin-left: 5px;
+    }
+    .testimonial-message p {
+        font-size: 16px;
+    }
+    .aboutus-img img {
+        margin: 0px;
+    }
+    .main-headding {
+        margin-bottom: 0px;
+    }
+    .contact-form {
+        width: 400px;
+        padding: 25px 20px;
+    }
+    .contact-form h3 {
+        margin-bottom: 25px;
+    }
+    .btn-send {
+        margin-top: 20px;
+    }
+    .contact-form .form-group {
+        margin-bottom: 15px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .section-top-bottom-spacing {
+        padding: 50px 0;
+    }
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .sticky_navigation .navbar-toggle .icon-bar {
+        background: #0094d2;
+    }
+    .sticky_navigation .navbar-toggle {
+        border: 2px solid #0094d2;
+    }
+    .navbar-nav {
+        float: right;
+        margin: 11px 21px;
+        display: inherit;
+        background-color: transparent;
+    }
+    .navbar-nav li {
+        float: left;
+        margin: 10px;
+        display: inherit;
+        width: 100%;
+    }
+    .navbar-fixed-top .navbar-collapse {
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+    }
+    .navbar-right li a {
+	color: #ffffff;
+    }
+    .sticky_navigation .nav li a {
+        color: #ffffff;
+    }
+    .my-about-role {
+        font-size: 2em;
+    }
+    .banner-animated-text, .typed-cursor {
+        font-size: 0.9em;
+    }
+    .banner-containt h2 {
+        font-size: 2em;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .banner-btn a {
+        padding: 7px 20px;
+        letter-spacing: 0;
+    }
+    p.heading-text {
+        font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    .main-paregraph-down-padding {
+        padding: 0;
+        font-size: 15px;
+    }
+    .socials {
+        margin-bottom: 20px;
+    }
+    .btn.btn-primary::before {
+        display: none;
+    }
+    .aboutus .btn.btn-primary{
+        border-color: #0094d2;
+    }
+    .aboutus .btn-group .btn {
+        padding: 15px 0;
+        font-size: 15px;
+    }
+    .aboutus .tab-content > .tab-pane {
+        padding: 30px 10px;
+    }
+    .aboutus-img img {
+        margin-bottom: 15px;
+    }
+    .services-items {
+        margin-bottom: 30px;
+    }
+    .portfolio ul{
+        text-align: center;
+    }
+    .portfolio ul.list-inline li {
+        margin: 5px;
+    }
+    .portfolio ul.list-inline li:first-child {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .portfolio ul.list-inline li:last-child {
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+    }
+    .portfolio nav ul li {
+        padding: 5px 21px;
+    }
+    .portfolio .list-inline > li {
+        padding-right: 0px;
+    }
+    .testimonial-items {
+        margin: 0px 2px 30px 2px;
+    }
+    .testimonial-heading {
+        margin-bottom: 40px;
+    }
+    .testimonial-message p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    
+    .contact-form {
+        width: 320px;
+        padding: 45px 15px;
+    }
+    .contact-form h3 {
+        font-size: 26px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .contact-form .form-group {
+        margin-bottom: 18px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .banner-animated-text, .typed-cursor {
+        font-size: 2.5em;
+    }
+    .portfolio-all-in img {
+        width: 100%;
+    }
+    .navbar-toggle .icon-bar {
+        background: #ffffff;
+    }
+    .portfolio .list-inline > li {
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px){
+    .banner-animated-text, .typed-cursor {
+        font-size: 0.8em;
+    }
+    .addressLeft span{
+        display:inline-block;
+    }
+    .portfolio ul.list-inline li {
+        margin: 7px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px){
+    .banner-animated-text, .typed-cursor {
+        font-size: 0.8em;
+    }
+    .portfolio .list-inline > li {
+        padding-right: 0px;
+    }
+    .portfolio ul.list-inline li {
+        margin: 7px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .banner-animated-text, .typed-cursor {
+        font-size: 1em;
+    }
+    .portfolio-all-in {
+        text-align: center;
+    }
+    .aboutus-img img {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+}

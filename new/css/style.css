@@ -236,7 +236,7 @@ input::placeholder {
 
 /*----------- 4. Mouse Animate Icon Start ------------------*/
 .mouse-icon {
-    margin: 50px auto 20px;
+    margin: 30px auto 20px;
 }
 .mouse-icon .wheel {
     -webkit-animation-name: drop;
@@ -405,13 +405,13 @@ p.heading-text {
 .skill-progressbar:before {
     background: rgb(223, 223, 223);
     content: "";
-    height: 5px;
+    height: 7px;
     position: absolute;
     width: 100%;
     z-index: -1;
 }
 .skill-progressbar {
-    height: 5px;
+    height: 7px;
     width: 0px;
     background: #0094d2;
     transition-property: width, background-color;

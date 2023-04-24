@@ -42,7 +42,6 @@
         padding: 30px 15px;
     }
     .services-items {
-        margin-bottom: 30px;
         padding: 40px 8px;
     }
     .service-contant h3 {
@@ -60,7 +59,7 @@
         margin: 0px;
     }
     .main-headding {
-        margin-bottom: 0px;
+        margin-bottom: 30px;
     }
     .contact-form {
         width: 400px;

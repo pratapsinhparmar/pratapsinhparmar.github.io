@@ -1,4 +1,3 @@
-/* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .main-paregraph-down-padding {
         padding: 0 150px;
@@ -10,9 +9,10 @@
     .contact-details-items {
         padding: 30px 5px;
     }
+    .contact-details-items.main p {
+        font-size: 13px;
+    }
 }
-
-    /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .section-top-bottom-spacing {
         padding: 50px 0;
@@ -43,6 +43,11 @@
     }
     .services-items {
         margin-bottom: 30px;
+        padding: 40px 8px;
+    }
+    .service-contant h3 {
+        max-width: 85%;
+        margin: 20px auto 10px;
     }
     .portfolio nav ul li {
         padding: 5px 15px;
@@ -88,15 +93,15 @@
     }
     .navbar-nav {
         float: right;
-        margin: 11px 21px;
+        margin: 0;
         display: inherit;
         background-color: transparent;
     }
     .navbar-nav li {
         float: left;
-        margin: 10px;
         display: inherit;
         width: 100%;
+        padding: 7px 0px;
     }
     .navbar-fixed-top .navbar-collapse {
         height: auto;
@@ -156,6 +161,10 @@
     .aboutus-img img {
         margin-bottom: 15px;
     }
+    .service-list {
+        max-width: 500px;
+        margin: 0 auto;
+    }
     .services-items {
         margin-bottom: 30px;
     }
@@ -192,6 +201,11 @@
         text-align: justify;
     }
 
+
+    .contact-details {
+        max-width: 400px;
+        margin: 0 auto 50px;
+    }
     
     .contact-form {
         width: 320px;
@@ -205,7 +219,21 @@
     .contact-form .form-group {
         margin-bottom: 18px;
     }
-}
+    .footer-social {
+        padding: 50px 0;
+    }
+    .footer-copyright {
+        padding: 15px 0;
+    }
+    .footer-copyright p {
+        line-height: 22px;
+    }
+
+    .intSJi {
+        width: 55px !important;
+        height: 55px !important;
+    }
+}   
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -224,7 +252,7 @@
     }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 767px){
+@media only screen and (min-width: 360px) and (max-width: 767px) {
     .banner-animated-text, .typed-cursor {
         font-size: 0.8em;
     }
@@ -236,7 +264,7 @@
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 767px){
+@media only screen and (min-width: 375px) and (max-width: 767px) {
     .banner-animated-text, .typed-cursor {
         font-size: 0.8em;
     }
@@ -248,7 +276,7 @@
     }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 600px) {
     .banner-animated-text, .typed-cursor {
         font-size: 1em;
     }
@@ -258,5 +286,34 @@
     .aboutus-img img {
         margin-bottom: 15px;
         width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .portfolio-all-in {
+        margin-top: 0px;
+    }
+    .aboutus .tab-pane {
+        padding: 15px 5px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .contact-form {
+        width: 300px;
+    }
+    .contact-form h3 {
+        font-size: 24px;
+    }
+    .footer-social {
+        padding: 30px 0;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .contact-form {
+        width: 100%;
+    }
+    .services-items {
+        padding: 30px 10px;
     }
 }

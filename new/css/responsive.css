@@ -95,6 +95,8 @@
         margin: 0;
         display: inherit;
         background-color: transparent;
+        text-align: center;
+        width: 100%;
     }
     .navbar-nav li {
         float: left;
@@ -123,9 +125,6 @@
     }
     .banner-containt h2 {
         font-size: 2em;
-    }
-    .navbar-nav {
-        text-align: center;
     }
     .banner-btn a {
         padding: 7px 20px;

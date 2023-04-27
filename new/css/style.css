@@ -945,8 +945,9 @@ p.heading-text {
 .footer-copyright a:hover {
     color: #0094d2;
 }
-/*--------------- Footer area ends -------------*/
 
+
+/*--------------- Footer area ends -------------*/
 @media only screen and (max-width: 380px) {
     .footer-copyright a {
         display: block;

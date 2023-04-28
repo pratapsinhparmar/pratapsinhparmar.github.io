@@ -38,6 +38,9 @@
     .main-paregraph-down-padding {
         padding: 0;
     }
+    .aboutus-contact-wrap {
+        display: unset;
+    }
     .aboutus .btn-group .btn {
         padding: 30px 15px;
     }
@@ -65,19 +68,35 @@
         width: 400px;
         padding: 25px 20px;
     }
+    
     .contact-form h3 {
-        margin-bottom: 25px;
+        margin-bottom: 18px;
+        font-size: 27px;
+        margin-top: 5px;
     }
     .btn-send {
-        margin-top: 20px;
+        margin-top: 12px;
+    }
+    .maps-and-form-div {
+        height: 570px;
     }
     .contact-form .form-group {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
+    label.error {
+        font-size: 14px;
+    }
+    .contact-result-text {
+        margin-bottom: 0;
+    }
+    
 }
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+    .aboutus .main-headding {
+        margin-bottom: 0px;
+    }
     .section-top-bottom-spacing {
         padding: 50px 0;
     }
@@ -146,6 +165,9 @@
     .btn.btn-primary::before {
         display: none;
     }
+    .aboutus-contact-wrap {
+        display: unset;
+    }
     .aboutus .btn.btn-primary{
         border-color: #0094d2;
     }
@@ -160,6 +182,7 @@
         margin-bottom: 15px;
     }
     .service-list {
+        display: unset;
         max-width: 500px;
         margin: 0 auto;
     }
@@ -198,16 +221,13 @@
         font-size: 15px;
         text-align: justify;
     }
-
-
     .contact-details {
         max-width: 400px;
         margin: 0 auto 50px;
     }
-    
     .contact-form {
         width: 320px;
-        padding: 45px 15px;
+        padding: 25px 15px;
     }
     .contact-form h3 {
         font-size: 26px;
@@ -215,7 +235,7 @@
         margin-bottom: 15px;
     }
     .contact-form .form-group {
-        margin-bottom: 18px;
+        margin-bottom: 24px;
     }
     .footer-social {
         padding: 50px 0;
@@ -225,6 +245,9 @@
     }
     .footer-copyright p {
         line-height: 22px;
+    }
+    label.error {
+        font-size: 14px;
     }
 
     .intSJi {

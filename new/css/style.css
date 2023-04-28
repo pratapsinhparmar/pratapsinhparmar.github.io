@@ -571,11 +571,17 @@ p.heading-text {
 .portfolio ul.list-inline{
     text-align: center;
 }
-.portfolio ul.list-inline li{
+.portfolio ul.list-inline li {
     font-weight: bold;
     background-color: #171d29;
     color: #ffffff;
-    padding: 5px 30px;
+    padding: 5px 18px;
+    border: 2px solid #171d29;
+    transition: all 0.5s;
+}
+.portfolio ul.list-inline li:hover {
+    background-color: #fff;
+    color: #171d29;
 }
 .portfolio ul.list-inline li:first-child{
     border-radius: 0;
@@ -672,6 +678,9 @@ p.heading-text {
 }
 .btn-custom:visited {
     color: #fff;
+}
+.portfolio-pagination {
+    margin-top: 50px;
 }
 
 /*--------------Portfolio area Ends-----------*/
@@ -826,7 +835,7 @@ p.heading-text {
     background-color: #171d29d9;
     width: 600px;
     height: 100%;
-    padding: 65px 20px;
+    padding: 40px 20px;
     margin-left: auto;
 }
 .contact-form h3 {
@@ -837,7 +846,7 @@ p.heading-text {
     text-align: center;
 }
 .contact-form .form-group {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 .contact-form .form-group .form-control {
     height: 38px;
@@ -851,6 +860,11 @@ p.heading-text {
 .contact-form .form-group textarea.form-control {
     height: auto;
     padding: 9px 12px;
+}
+label.error {
+    color: #f00;
+    font-weight: 500;
+    position: absolute;
 }
 .btn-send {
     background-color: #ffffff;
@@ -873,17 +887,134 @@ p.heading-text {
     outline: none !important;
 }
 
+.contact-result-text {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.snippet {
+    display: none;
+    padding: 5px 12px 0px;
+    height: 20px;
+}
+.dot-elastic {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #0094d2;
+    color: #9880ff;
+    animation: dotElastic 1s infinite linear;
+}
+.contact-msg .stage {
+    display: flex;
+    justify-content: center;
+}  
+.dot-elastic::before,
+.dot-elastic::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}  
+.dot-elastic::before {
+    left: -15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #0094d2;
+    color: #9880ff;
+    animation: dotElasticBefore 1s infinite linear;
+}
+.dot-elastic::after {
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #0094d2;
+    color: #9880ff;
+    animation: dotElasticAfter 1s infinite linear;
+}
+
+@keyframes dotElasticBefore {
+    0% {
+        transform: scale(1, 1);
+    }
+    25% {
+        transform: scale(1, 1.5);
+    }
+    50% {
+        transform: scale(1, 0.67);
+    }
+    75% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+@keyframes dotElastic {
+    0% {
+        transform: scale(1, 1);
+    }
+    25% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1, 1.5);
+    }
+    75% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}  
+@keyframes dotElasticAfter {
+    0% {
+        transform: scale(1, 1);
+    }
+    25% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1, 0.67);
+    }
+    75% {
+        transform: scale(1, 1.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+.btn-send:hover .dot-elastic {
+    background: #fff;
+}
+.btn-send:hover .dot-elastic::before {
+    background: #fff;
+}
+.btn-send:hover .dot-elastic::after {
+    background: #fff;
+}
+
+
+
 /*------------- Contact area ends -------------*/
 
 /*---- 11. Clients area Starts ----*/
-.tools .item {
-	cursor: e-resize;
-}
 .tools {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background: #EFEFEF;
 }
+.tools .owl-carousel .owl-item img {
+    transform: scale(0.9);
+    transition: all 0.5s;
+}
+.tools .owl-carousel .owl-item img:hover {
+    transform: scale(1);
+}
+
 /*---- Clients area Ends ----*/
 
 /*--------------12. Footer area starts -------------*/

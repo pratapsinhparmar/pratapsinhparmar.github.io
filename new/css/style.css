@@ -108,9 +108,17 @@ p {
     position: absolute;
     right: 0px;
     top: 0px;
-    width: 320px;
+    width: 350px;
     height: 100vh;
-    background-color: #030d28;
+    background-color: #030d28db;
+    overflow-y: auto;
+}
+.right-sidebar::-webkit-scrollbar {
+    display: none;
+}
+.right-sidebar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 .close-sidebar {
     position: absolute;
@@ -127,8 +135,8 @@ p {
 }
 .right-sidebar .profile {
     color: #fff;
-    background-color: #ffbc5e;
-    padding: 45px 18px 15px;
+    background-color: #ffc87aab;
+    padding: 45px 18px 18px;
 }
 .right-sidebar .profile img {
     width: 80px;
@@ -140,6 +148,43 @@ p {
     font-size: 23px;
     margin-bottom: 5px;
 }
+.right-sidebar .profile p {
+    margin-bottom: 0;
+}
+.sidebar-contact-details {
+    padding: 10px 18px;
+}
+.contact-details-list {
+    margin: 15px 0px;
+    border: 1px solid #ffffff3d;
+    border-radius: 0.25rem;
+}
+.contact-details-list a {
+    color: #fff;
+    text-decoration: none;
+}
+.contact-details-list .info-box {
+    display: flex;
+    padding: 10px 20px;
+}
+.contact-details-list .info-box .info-icon i {
+    font-size: 20px;
+    height: 55px;
+    width: 55px;
+    padding: 16px;
+    border-radius: 50%;
+    margin-right: 12px;
+    border: 3px dotted #9398a5;
+}
+.contact-details-list .info-box .info-details h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.contact-details-list .info-box .info-details p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
 /* banner section css */
 .banner {
     overflow: hidden;

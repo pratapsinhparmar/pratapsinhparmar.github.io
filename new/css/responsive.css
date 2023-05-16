@@ -1,0 +1,46 @@
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1200px;
+    }
+}
+
+/* @media only screen and (max-width: 1200px) {
+    .banner-wrap .banner-img {
+        display: none;
+    }
+    .banner-wrap .banner-img-two {
+        display: block;
+    }
+    .banner-wrap {
+        width: 141%;
+        right: -42%;
+        top: 0%;
+    }
+    .banner-contant {
+        margin-top: 25%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .banner-wrap {
+        width: 130%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .banner-wrap {
+        top: 0;
+        right: -20%;
+        width: 80%;
+    }
+    .banner-wrap .banner-img-two {
+        display: none;
+    }
+    .banner-wrap .banner-img-three {
+        display: block;
+    }
+    
+    .banner-contant h2 {
+        font-size: 42px;
+    }
+} */

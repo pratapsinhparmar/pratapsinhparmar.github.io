@@ -37,7 +37,7 @@
     <body>
         
         <!-- Header section start -->
-        <header id="header" class="navbar navbar-dark">
+        <header id="header" class="navbar navbar-dark" id="home">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img src="img/golden-logo.png" class="logo" alt="Pratapsinh Parmar">
@@ -53,15 +53,69 @@
                     <i class="fa fa-circle"></i>
                     <i class="fa fa-circle"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
+                <div class="collapse navbar-collapse right-sidebar" id="navbarSupportedContent">
+                    <div class="profile">
+                        <button class="close-sidebar">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <img src="img/profile-img.jpg">
+                        <h3>Pratapsinh Parmar</h3>
+                        <p>Front End Developer</p>
+                    </div>
+                    <div class="sidebar-contact-details">
+                        <div class="contact-details-list">
+                            <a href="tel:+919924066865">
+                                <div class="info-box">
+                                    <div class="info-icon">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </div>
+                                    <div class="info-details">
+                                        <h3>WhatsApp</h3>
+                                        <p>+91 992 406 6865</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="contact-details-list">
+                            <a href="skype:live:.cid.c5409c324501d57?chat">
+                                <div class="info-box">
+                                    <div class="info-icon">
+                                        <i class="fa-brands fa-skype"></i>
+                                    </div>
+                                    <div class="info-details">
+                                        <h3>Skype</h3>
+                                        <p>live:.cid.c5409c324501d57</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="contact-details-list">
+                            <a href="mailto:pratapsinh.work@gmail.com">
+                                <div class="info-box">
+                                    <div class="info-icon">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                    <div class="info-details">
+                                        <h3>Gmail</h3>
+                                        <p>pratapsinh.work@gmail.com</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="contact-details-list">
+                            <a href="javascript:void(0)">
+                                <div class="info-box">
+                                    <div class="info-icon">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div class="info-details">
+                                        <h3>Address</h3>
+                                        <p>Junagadh Gujarat - 362225</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -130,32 +184,31 @@
         <!-- Portfolio section end -->
 
         <!-- Testimonial section start -->
-        <section class="testimonial portfolio-page">
+        <section class="testimonial" id="testimonial">
             <div class="container">
                 <div class="testimonial-wrap">
                     <div class="slick-carousel testimonial-slider">
                         <div>
                             <div class="slide-content">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum eaque doloremque quidem sed a, blanditiis repellendus. Molestias dolorum dicta quis ipsum! Tempori vitae ab. Eligendi totam tempora vero laboriosam obcaecati?</p>
-                                <h4>John Dion</h4>
-                                <span>Developer</span>
+                                <p>After presenting our company and the direction we wanted to take, I told Pratapsinh to think outside the box and be creative. Pratapsinh delivered incredible good designs that exceeded all our expectations. Pratapsinh would be a great asset to any company!</p>
+                                <h4>Laura Thorn</h4>
+                                <small>Developer</small>
                             </div>
                         </div>
                         <div>
                             <div class="slide-content">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum eaque doloremque quidem sed a, blanditiis repellendus. Molestias dolorum dicta quis ipsum! Tempori vitae ab. Eligendi totam tempora vero laboriosam obcaecati?</p>
-                                <h4>John Dion</h4>
-                                <span>Developer</span>
+                                <p>Pratapsinh has a strong understanding of current development best practices. He is particularly skilled with web design and has been a valuable addition to our team. I would gladly recommend Pratapsinh  for all development projects!</p>
+                                <h4>Susan Smith</h4>
+                                <small>Designer</small>
                             </div>
                         </div>
                         <div>
                             <div class="slide-content">
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum eaque doloremque quidem sed a, blanditiis repellendus. Molestias dolorum dicta quis ipsum! Tempori vitae ab. Eligendi totam tempora vero laboriosam obcaecati?</p>
-                                <h4>John Dion</h4>
-                                <span>Developer</span>
+                                <p>Pratapsinh is an amazing consultant and brainstorming with him is a breeze. Pratapsinh is up-to-date on all the useful technology and helped us implement very useful tools for our product that we didn’t even know about.</p>
+                                <h4>Petra Collins</h4>
+                                <small>Marketer</small>
                             </div>
                         </div>
-                        
                     </div>
                     <div class="paginator-center text-color text-center">
                         <button class='btn btn-custom prew prev-testi'><i class='fa fa-angle-left'></i></button>
@@ -167,21 +220,21 @@
         <!-- Testimonial section end -->
 
         <!-- lets start section start -->
-        <section class="lets-start">
+        <section class="lets-start" id="lets-start">
             <div class="container">
                 <div class="section-hedding">
                     <h3>Let's Work Together!</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, eos?</p>
+                    <p>Get in touch and let me know how I can help you?</p>
                 </div>
                 <div class="let-start-button">
-                    <a href="" class="btn btn-custom">Coll</a>
+                    <a href="tel:9924066865" class="btn btn-custom">Call to Action</a>
                 </div>
             </div>
         </section>
         <!-- lets start section end -->
 
         <!-- ContactUs section start -->
-        <section class="contact-us">
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="section-hedding">
                     <h3>Contact Us</h3>
@@ -189,18 +242,18 @@
                 </div>
                 <div class="contact-details">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-lg-3 col-sm-6">
                             <a href="tel:+919924066865">
                                 <div class="info-box">
                                     <div>
-                                        <i class="fa-solid fa-phone"></i>
-                                        <h3>Call</h3>
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <h3>WhatsApp</h3>
                                         <p>+91 992 406 6865</p>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-lg-3 col-sm-6">
                             <a href="skype:live:.cid.c5409c324501d57?chat">
                                 <div class="info-box">
                                     <div>
@@ -211,7 +264,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-lg-3 col-sm-6">
                             <a href="mailto:pratapsinh.work@gmail.com">
                                 <div class="info-box">
                                     <div>
@@ -222,12 +275,12 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-lg-3 col-sm-6">
                             <a href="javascript:void(0)">
                                 <div class="info-box">
                                     <div>
                                         <i class="fa-solid fa-location-dot"></i>
-                                        <h3>Our Address</h3>
+                                        <h3>Address</h3>
                                         <p>Junagadh Gujarat - 362225</p>
                                     </div>
                                 </div>
@@ -236,40 +289,40 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="map">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d109205.39181311856!2d70.23383676367257!3d21.130845860506923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1654880204445!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6">
                         <div class="contact-form">
                             <form action="">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" placeholder="Enter Your Name..." id="name" autocomplete="off">
                                             <label for="name">Name</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" placeholder="Enter Your Email..." id="email" autocomplete="off">
                                             <label for="email">Email</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                         <div class="form-floating">
                                             <input type="number" class="form-control" placeholder="Enter Your Number..." id="number" autocomplete="off">
                                             <label for="number">Number</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" placeholder="Enter Your Subject..." id="subject" autocomplete="off">
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-12">
+                                    <div class="col-sm-12">
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Enter Your Message..." style="height: 100px" id="message" autocomplete="off"></textarea>
                                             <label for="message">Message</label>
@@ -283,7 +336,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <!-- ContactUs section end -->
@@ -331,6 +383,21 @@
             </div>
         </footer>
         <!-- Footer section end -->
+
+        <!-- Loader -->
+        <div class="backdrop d-none">
+            <div>
+                <div class="loader-logo">
+                    <img src="img/golden-logo.png" alt="">
+                </div>
+                <div class="bouncing-loader">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- Option 1: Bootstrap Bundle with Popper and jQuery -->

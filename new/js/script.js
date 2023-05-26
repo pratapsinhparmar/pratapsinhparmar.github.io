@@ -19,11 +19,18 @@ $(document).ready(function() {
     //     $(this).closest(".manu-bar-fullscreen").removeClass("show");
     // });
 
+    // banner text animation query
+    var typing=new Typed(".test-animation", {
+        strings: ["Web Designer", "Web Developer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+    });
+
     // Toogle right sidebar query
     $(document).on("click",".close-sidebar",function() {
         $(this).closest(".navbar").find(".navbar-toggler").click();
     });
-
 
     // portfolio section query
     $('.portfolio-slider').slick({
@@ -31,9 +38,22 @@ $(document).ready(function() {
         slidesToScroll: 1,
         dots: true,
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]        
     });
-
 
     // testimonial section start
     $('.testimonial-slider').slick({
@@ -45,8 +65,6 @@ $(document).ready(function() {
         prevArrow: $('.prev-testi'),
         nextArrow: $('.next-testi')
     });
-
-    
 
 });
 

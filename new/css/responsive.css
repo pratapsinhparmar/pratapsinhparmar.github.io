@@ -75,6 +75,12 @@
         padding: 240px 0px 70px;
     }
 
+    /*------------- Portfolio page css -------------*/
+    /* portfolio banner css */
+    .portfolio-banner .banner-contant {
+        margin-top: 0%;
+    }
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -296,6 +302,11 @@
         margin-top: 25px;
     }
 
+    /*------------- Portfolio page css -------------*/
+    /* portfolio banner css */
+    .portfolio-page .portfolio-banner {
+        height: 300px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -521,6 +532,13 @@
     .testimonial {
         padding: 220px 0px 60px;
     }
+
+    /*------------- Portfolio page css -------------*/
+    /* Portfolio page section css */
+    .details-link {
+        padding: 12px 5px;
+    }
+
 }
 
 @media only screen and (max-width: 350px) {

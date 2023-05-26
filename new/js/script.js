@@ -20,12 +20,12 @@ $(document).ready(function() {
     // });
 
     // banner text animation query
-    var typing=new Typed(".test-animation", {
-        strings: ["Web Designer", "Web Developer", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 40,
-        loop: true,
-    });
+    // var typing=new Typed(".test-animation", {
+    //     strings: ["Web Designer", "Web Developer", "Freelancer"],
+    //     typeSpeed: 100,
+    //     backSpeed: 40,
+    //     loop: true,
+    // });
 
     // Toogle right sidebar query
     $(document).on("click",".close-sidebar",function() {

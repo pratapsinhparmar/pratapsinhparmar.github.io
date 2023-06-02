@@ -541,7 +541,7 @@ $(document).ready(function() {
           Body += "<table border='0' cellpadding='0' cellspacing='0' width='480' >";
           Body += "<tr>";
           Body += "<td bgcolor='#ffffff' align='left' valign='top' style='padding: 30px 30px 20px 30px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 400; line-height: 48px;'>";
-          Body += "<h1 style='font-size: 32px; font-weight: 400; margin: 0;'>Email on Company</h1>";
+          Body += "<h1 style='font-size: 32px; font-weight: 400; margin: 0;'>Email on "+name+"</h1>";
           Body += "</td>";
           Body += "</tr>";
           Body += "</table>";
@@ -555,7 +555,7 @@ $(document).ready(function() {
           Body += "<table width='100%' border='0' cellspacing='0' cellpadding='0'>";
           Body += "<tr>";
           Body += "<td colspan='2' style='padding-left:30px;padding-right:15px;padding-bottom:10px; font-family: Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 25px;'>";
-          Body += "<p>Lorem ipsum dolor sit diam nonumy eirmod tempor invidunt ut labore et dolore diam voluptua.</p>";
+          Body += "<p>Cv.PratapsinhParmar.com new inquery</p>";
           Body += "<br>";
           Body += "</td>";
           Body += "</tr>";
@@ -647,7 +647,7 @@ $(document).ready(function() {
           //SMTP Send mail
           Email.send({
               SecureToken : "9bc6a945-2cb6-4da3-8050-56377dfade60",
-              To : 'pratapsinhparmar.contact@gmail.com',
+              To : 'pratapsinh.work@gmail.com',
               From : "hostingwork.space@gmail.com",
               Subject : "New message on contact from "+name,
               Body : Body

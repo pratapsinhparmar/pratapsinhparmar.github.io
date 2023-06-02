@@ -19,8 +19,8 @@ p {
     background: transparent;
     overflow: hidden;
     transition: 1s;
-    color: #fec576;
-    border-color: #fec576;
+    color: #ffbc5e;
+    border-color: #ffbc5e;
 }
 .btn-custom:before,
 .btn-custom:after {
@@ -50,7 +50,7 @@ p {
 }
 .btn-custom:hover {
     color: #f2f2f2;
-    background: #fec576;
+    background: #ffbc5e;
 }
 
 .section-hedding {
@@ -107,7 +107,7 @@ p {
   width: 1rem;
   height: 1rem;
   margin: 3rem 0.2rem 0;
-  background: #fec576;
+  background: #ffbc5e;
   border-radius: 50%;
   animation: bouncing-loader 1s infinite alternate;
 }
@@ -153,26 +153,28 @@ p {
     box-shadow: none !important;
 }
 .navbar-toggler i:nth-child(odd) {
-    color: #fec576;
+    color: #ffbc5e;
 }
 .navbar-toggler i {
     color: #fff;
 }
 .right-sidebar {
     position: absolute;
-    right: 0px;
+    right: -350px;
     top: 0px;
     width: 350px;
     height: 100vh;
     background-color: #030d28db;
     overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    transition: all 0.5s;
 }
 .right-sidebar::-webkit-scrollbar {
     display: none;
 }
-.right-sidebar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+.right-sidebar.show {
+    right: 0px;
 }
 .close-sidebar {
     position: absolute;
@@ -322,7 +324,7 @@ p {
     content: '';
     width: 165px;
     height: 165px;
-    background-color: #fec576;
+    background-color: #ffbc5e;
     border-radius: 100%;
     position: absolute;
     top: 25px;
@@ -351,7 +353,7 @@ p {
 /* AboutUs section css */
 .about-me {
     padding: 325px 0px 0px;
-    background-color: #fec576;
+    background-color: #ffbc5e;
 }
 .about-us-wrap {
 	background-color: #313552;
@@ -369,7 +371,7 @@ p {
     width: 100%;
 	overflow: hidden;
     border-radius: 100%;
-    border: 8px solid #fec576;
+    border: 8px solid #ffbc5e;
     margin-top: -50%;
 }
 
@@ -403,7 +405,7 @@ p {
 .eb-progress-bar-wrapper .eb-progress-bar {
 	--size: 6rem;
 	--inner-bg: #030d28;
-	--primary-color: #fec576;
+	--primary-color: #ffbc5e;
 	--secondary-color: #313552;
 	display: flex;
 	justify-content: center;
@@ -496,7 +498,7 @@ p {
 }
 .portfolio-contant h4 {
     font-size: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 .portfolio-contant p {
     font-size: 15px;
@@ -509,7 +511,7 @@ p {
     transition: all 0.5s;
 }
 .details-link:hover {
-    color: #fec576;
+    color: #ffbc5e;
 }
 .portfolio-item:hover .portfolio-contant {
     transition: all 1s;
@@ -538,7 +540,7 @@ p {
 
 /* Testimonial section start */
 .testimonial {
-    background-color: #fec576;
+    background-color: #ffbc5e;
     overflow: hidden;
     padding: 290px 0px 80px;
 }
@@ -611,7 +613,7 @@ p {
 /* contact section css */
 .contact {
 	padding: 60px 0px;
-    background-color: #fec576;
+    background-color: #ffbc5e;
 }
 .contact .section-hedding {
     color: #030d28;
@@ -708,9 +710,9 @@ p {
     line-height: 34px;
     border-radius: 3px;
     cursor: pointer;
-    color: #fec576;
+    color: #ffbc5e;
     background: transparent;
-    border: 1px solid #fec576;
+    border: 1px solid #ffbc5e;
     transition: all 0.5s;
 }
 .social-icons .button:hover {
@@ -743,7 +745,7 @@ p {
 }
 .footer-copyright a {
     text-decoration: none;
-    color: #fec576;
+    color: #ffbc5e;
     transition: all 0.5s;
 }
 .footer-copyright a:hover {

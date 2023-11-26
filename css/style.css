@@ -928,6 +928,16 @@ button:focus {
   position: relative;
 }
 
+.dawnload-cv {
+  color: var(--color-accent);
+  display: block;
+  margin-top: 20px;
+}
+
+.dawnload-cv:hover {
+  color: var(--color-heading);
+}
+
 @media only screen and (max-width: 580px) {
   .sidebar__name {
     font-size: 1.0625rem;
@@ -1582,6 +1592,7 @@ button:focus {
   /* animate in */
   /* animate out */
 }
+
 
 .mfp-zoom-in .mfp-with-anim {
   opacity: 0;

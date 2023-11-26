@@ -611,7 +611,7 @@ $(document).ready(function() {
           Body += "<tr>";
           Body += "<td style='line-height:1px;font-size:1px;width:0px'><br></td>";
           Body += "<td style='line-height:1px;font-size:1px;width:19px'>";
-          Body += "<a style='text-decoration:none' href='https://www.instagram.com/pratapsinhji_parmar/' target='_blank'>";
+          Body += "<a style='text-decoration:none' href='https://www.instagram.com/pratapsinh__parmar/' target='_blank'>";
           Body += "<img style='height:auto!important;width:19px;max-width:19px;font-size:10px;line-height:12px;font-family:'Whyte',Arial,Helvetica,sans-serif;color:#000;background-color:#fff;vertical-align:top;text-align:center' src='https://ci6.googleusercontent.com/proxy/xiT7_dX8nytRchBrcyZWD8xC6O6Spb6nuzTerdsDzNjOz_Jf2Hb17-dC6sJTGcFSrCmkHo8bX26sFhtrEzmmqHpICZCE2i7z6JZTj3SNTMmXcd0szz6w5gJKW0Q=s0-d-e1-ft#https://static.figma.com/uploads/3d4f14e1f53a6fba465af3582fdbf381c5015b77' alt='instagram' width='19' class='CToWUd' data-bit='iit'>";
           Body += "</a>";
           Body += "</td>";

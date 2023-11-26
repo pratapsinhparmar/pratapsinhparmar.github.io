@@ -1,0 +1,459 @@
+/* Header area css */
+
+@media(max-width: 480px) {
+
+    .aboutUs.section_padding100 {
+        padding-top: 0;
+    }
+    /* need help css */
+    .needHelp .card {
+        margin: 20px 0;
+    }
+
+    /* contact section css */
+    .contactSection {
+        height: auto;
+    }
+    .contactContant {
+        padding-bottom: 0px;
+    }
+
+    .contactSection p {
+        text-align: center;
+        margin-bottom: 6px;
+    }
+    /* about page css */
+    /* .aboutBanner .bgImg {
+        height: 900px;
+    }
+    .aboutBanner .aboutMore {
+        top: 110px;
+    } */
+    .aboutHeaderimg {
+        width: auto;
+        margin: 30px 0;
+    }
+    .Founderstory .founderProfile {
+        height: 290px !important;
+        width: 290px !important;
+        /* margin: 0 auto; */
+    }
+
+    /* projects pages css */
+    /* Nidhiyoga hub projects page css */
+    .bodyWrapper .cdStickerImg {
+        height: auto;
+        object-fit: cover;
+    }
+    /* LightGraph css */
+    
+    .bodyWrapper .stationaryMockup {
+        height: auto;
+    }
+    .Projectpageheader .borderBottom {
+        width: auto;
+    }
+    .Projectpageheader h1 {
+        font-size: 20px !important;
+        font-weight: bold;
+    }
+    .projectsnameSlider .slick-prev:before {
+        font-size: 20px;
+    }
+
+    .projectsnameSlider .slick-next:before {
+        font-size: 20px;
+    }
+
+    .projectsnameSlider .slide-content {
+        font-size: 14px;
+    }
+
+    .projectsnameSlider .slick-prev,
+    .projectsnameSlider .slick-next  {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .tringleShapecont .section_padding_100  {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 60px;
+    }
+    /* footer area css */
+    .footer_area {
+        height: auto;
+        padding: 35px;
+    }
+    .footer_area .footerMenu {
+        margin-bottom: 30px;
+        width: 230px;
+    }
+    .footer_area .footerLogo {
+        margin-bottom: 20px;
+    }
+    .footer_area p {
+        margin-bottom: 20px;
+    }
+    .effect-zoe {
+        height: 200px !important;
+    }
+    .effect-zoe img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .Projectpageheader .borderBottom {
+        margin-top: 15px;
+        margin-bottom: 7px;
+    }
+
+    .header_area {
+        padding: 0 30px !important;
+    }
+    .aboutwork p {
+        max-width: 90%;
+    }
+    .aboutContent .aboutHeader h2 {
+        font-size: 30px;
+    }
+     .nidhiyogaHubconcept .colorRed, .nidhiyogaHubbrief .colorRed, .brief h1 {
+        font-size: 25px !important;
+    }
+    .JutyosikkimSeC h4, .aboutShape h3 {
+        font-size: 20px;
+    }
+    .JutyosikkimSeC p, .nidhiyogaHubconcept p, .nidhiyogaHubbrief p, .Ceramixcontent p, .aboutShape p, .tringleShapecont p, .bodyWrapper .lightGraphcont2 p, .bodyWrapper .diveIntobeamsec p, .bodyWrapper .lightGraphcont3 p, .bodyWrapper .lightGraphcont4 p, .brief p, .contactSection .colorRed {
+        font-size: 15px !important;
+    }
+}
+
+@media(max-width: 675px) {
+    .bodyWrapper .diveIntobeamsec p {
+        position: unset !important;
+        margin-top: 30px;
+    }
+    .bodyWrapper .diveIntobeamsec p {
+        max-width: 600px !important;
+    }
+}
+@media(max-width: 768px) {
+    .header_area {
+        padding: 0;
+    }
+    .contactContant {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .aboutContent {
+        margin-top: 10px;
+        margin-bottom: 55px;
+    }
+    #minimlism-navbar {
+        padding: 15px;
+        border-radius: 3px;
+        background-color: #FFFFFF;
+        text-align: left;
+    }
+    .about-cover-image {
+        height: 275px;
+    }
+    .indexHeaderimg {
+        margin-top: 2rem;
+    }
+    .needHelp .card {
+        margin: 25px 0;
+    }
+    .section_margin100 {
+        margin-top: 30px !important;
+    }
+    
+    .aboutUs.section_padding100 {
+        padding-top: 0px;
+    }
+    .aboutwork .aboutHeader {
+        margin-top: 13px;
+        margin-bottom: 8px;
+    }
+    .section_padding100 {
+        margin-bottom: 25px;
+    }
+    .aboutFounder .aboutHeader {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .Projectpageheader h1 {
+        font-size: 35px;
+    }
+    .contact-border {
+        margin-top: 20px;
+        border: none;
+    }
+    .nidhiyogaHubconcept p {
+        margin-bottom: 10px;
+    }
+    .bodyWrapper .diveIntobeamsec p {
+        position: absolute;
+        top: -148px;
+        left: 37px;
+        max-width: 355px;
+    }
+    .contactFormWrapper .col-md-4 {
+        margin-right: 0px !important;
+    }
+    .bodyWrapper .briefWrapper {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+    .panchMohtsavBrief h1 {
+        font-size: 45px;
+    }
+    .section_padding40 {
+        padding-top: 22px;
+    }
+    .bodyWrapper .SDFPrjectimgs {
+        height: auto;
+        width: 100%;
+    }
+    .aboutContent .aboutHeader {
+        margin-bottom: 10px;
+    }
+    .footer_area {
+        display: block;
+        margin-top: 80px !important;
+    }
+    .footer_area .footerLogo {
+        display: block;
+        margin: 0px auto 15px;
+    }
+    .footerMenu {
+        width: 335px;
+        margin: 0 auto;
+    }
+    .footerMenu li{
+        padding: 2px 25px;
+        margin-right: 0;
+    }
+    .footer_area p {
+        text-align: center;
+        margin: 20px 0px 10px 0px;
+        padding: 0;
+        color: #FFFFFF;
+    }
+    .social-icon {
+        width: 135px;
+        margin: 0 auto;
+    }
+    .footer_area li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* carousel section */
+    .projectCarousel {
+        margin-top: 115px;
+    }
+    /* about page css */
+    .customPadding {
+        padding: 0;
+    }
+    .aboutHeaderimg {
+        width: auto;
+        margin: 20px 0;
+    }
+    
+    /*WPOC project css*/
+    .sunImageswrap .subImgsection {
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .projectMinimlismrow1{
+        height: auto!important;
+        width: 100%;
+    }
+
+    .projectMinimlismrow2_1{
+         height: auto!important;
+    }
+
+    .projectMinimlismrow2_2{
+        height: auto!important;
+    }
+
+    .projectMinimlismrow3_1{
+        height: auto!important;
+    }
+
+    .projectMinimlismrow3_2{
+        height: auto!important;
+        margin-top: 0px;
+    }
+ 
+    /*.projectMinimlismrow4{
+        height: auto!important;
+    }
+
+    figure.effect-zoe.SDFprojectImg img{
+        height: auto!important;
+    }
+
+    figure.effect-zoe.CeramixprojectImg img{
+        height: auto!important;
+    }
+
+    figure.effect-zoe.PawagardhImg img{
+         height: auto!important;
+    } */
+
+    figure.effect-zoe figcaption{
+        padding: 30px 22px 0;
+    }
+
+    .effect-zoe {
+        height: 350px;
+    }
+    .effect-zoe img{
+        width: 100%;
+        height: 100%;
+    }
+    .WPOCcontent p {
+        font-size: 15px;
+    }
+    .brief h1 {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    .aboutShape p {
+        font-size: 18px;
+    }
+    .padding-md-o {
+        padding: 0;
+    }
+
+    .bodyWrapper .SDFPrjectimgs2 {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .bodyWrapper .SDFPrjectimgs3 {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .aboutBanner .aboutMore {
+        padding: 110px 40px 86px !important;
+        height: auto !important;
+    }
+    .aboutBanner .aboutMore p {
+        line-height: 30px !important;
+        font-size: 14px;
+    }
+    .aboutBanner .Onlym {
+        width: 60px;
+        height: 60px;
+        margin: 10px 0;
+    }
+    .aboutHeaderimg {
+        height: auto;
+    }
+    .aboutHeaderimg img {
+        height: auto;
+    }
+    .panchMohtsavBrief .brief1, .panchMohtsavBrief .brief2 {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 992px) {
+    .customPadding {
+        padding: 0 0px;
+    }
+    .contactFormWrapper .col-md-4 {
+        margin-right: 25px;
+    }
+    .aboutBanner .aboutMore {
+        padding: 110px 25px 35px !important;
+        height: 575px;
+    }
+    .aboutBanner .aboutMore p {
+        line-height: 22px;
+    }
+    .aboutBanner .bgImg {
+        width: 100%;
+    }
+    .aboutHeaderimg {
+        width: 100%;
+    }
+    .aboutBanner .Onlym {
+        margin: 10px 0;
+    }
+}
+@media(max-width: 1024px) {
+    .aboutBanner .aboutMore p {
+        line-height: 22px;
+    }
+    .aboutBanner .bgImg {
+        width: 100%;
+    }
+    .aboutHeaderimg {
+        width: 100%;
+    }
+}
+@media(min-width: 1024px) and (max-width: 1200px) {
+    .header_area {
+        padding: 0;
+    }
+    .menu_area #nav .nav-link {
+        font-size: 12px;
+    }
+    /*WPOC project css*/
+    .sunImageswrap .subImgsection {
+        height: 100%;
+    }
+    .aboutBanner .aboutMore {
+        padding: 90px 25px 86px;
+    }
+    .aboutBanner .aboutMore p {
+        line-height: 26px;
+    }
+    .aboutBanner .bgImg {
+        width: 100%;
+    }
+    .aboutHeaderimg {
+        width: 100%;
+    }
+    .aboutBanner .Onlym {
+        margin: 10px 0;
+    }
+}
+@media(min-width: 1200px) {
+    .aboutBanner .aboutMore p {
+        line-height: 30px;
+    }
+    .aboutBanner .aboutMore {
+        padding: 90px 25px 86px;
+    }
+    .aboutBanner .aboutMore p {
+        line-height: 26px;
+    }
+}
+@media(min-width: 1346px) {
+    .aboutBanner .aboutMore p {
+        line-height: 30px;
+    }
+}
+@media(min-width: 1386px) {
+    .aboutBanner .aboutMore p {
+        line-height: 28px;
+    }
+}
+@media(max-width: 1500px) {
+    .header_area {
+        padding: 0 67px;
+    }
+}
+@media(min-width: 1280px) and (max-width:1600px) {
+    /* .aboutBanner .bgImg {
+        height: 100%;
+    } */
+}

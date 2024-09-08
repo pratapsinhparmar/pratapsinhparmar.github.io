@@ -11,19 +11,34 @@
             gtag('config', 'G-PC89D20P2G');
         </script>
 
-        <title>Pratapsinh Parmar - Front End Developer</title>
+        <title>Pratapsinh Parmar</title>
 
         <!-- Favicon Icon Links -->
-		<link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon/android-chrome-192x192.png">
-		<link rel="icon" type="image/png" sizes="512x512" href="assets/img/favicon/android-chrome-512x512.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
-        <!-- Custom CSS -->
-        <link href="assets/css/style.min.css" rel="stylesheet">
-        <link href="assets/css/responsive.min.css" rel="stylesheet">
+        <style>
+            /* loader css */
+            .backdrop {
+                display:grid;
+                position:fixed;
+                top:0;
+                left:0;
+                bottom:0;
+                right:0;
+                border:solid;
+                background: #030d28;
+                justify-content: center;
+                align-items: center;
+                z-index: 10001;
+            }
+            .loader-logo {
+                width: 100px;
+            }
+            .loader-logo img {
+                width: 100%;
+            }
+        </style>
 
     </head>
     <body>
@@ -32,7 +47,7 @@
         <div class="backdrop" id="preloader">
             <div>
                 <div class="loader-logo">
-                    <img src="assets/img/logo.svg" alt="Pratapsinh Parmar">
+                    <img src="img/logo.svg" alt="Pratapsinh Parmar">
                 </div>
                 <div class="bouncing-loader">
                   <div></div>

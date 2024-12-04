@@ -955,7 +955,8 @@ p {
     background: #1877f2;
 }
 .social-icons .button.button-twitter .button-bg {
-    background: #55acee;
+    background: #0f1419;
+    border: 1px solid #9c9c9c77;
 }
 .social-icons .button.button-pinterest .button-bg {
     background: #cb2027;

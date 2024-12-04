@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MailConfig>
+<SMTPServer>sg3plcpnl0013.prod.sin3.secureserver.net</SMTPServer>
+<Username>talk@minimlism.com</Username>
+<Password>Minimlism334.privacy</Password>
+<Port>465</Port>
+</MailConfig>

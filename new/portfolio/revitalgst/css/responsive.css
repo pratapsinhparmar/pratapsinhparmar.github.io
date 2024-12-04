@@ -1,0 +1,1699 @@
+@media only screen and (max-width: 1800px) {}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1440px) {
+    /* --------------------------- Home Page CSS Start --------------------------- */
+    .douts-victor {
+        right: -94px;
+    }
+    .progress .douts-victor {
+        right: -94px;
+    }
+
+    /* FAQ Section Starts */
+    .progress-hedding {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    /* --------------------------- Home Page CSS Start --------------------------- */
+    .container {
+        max-width: 1024px;
+    }
+    .douts-victor {
+        right: -85px;
+    }
+    .progress .douts-victor {
+        right: -88px;
+    }
+    .btn {
+        padding: 10px 25px;
+    }
+
+    /* Banner section starts */
+    .banner-hedding {
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .banner-contant {
+        max-width: 600px;
+    }
+    .banner-paregraph {
+        width: 650px;
+        font-size: 24px;
+    }
+
+    /* About section Start */
+    .main-span {
+        font-size: 14px;
+    }
+    .main-hedding-h2 {
+        max-width: 100%;
+        font-size: 2.7em;
+    }
+    .about .main-paregraph {
+        margin-bottom: 28px !important;
+    }
+
+    /* Our Prosess section Start */
+    .main-hedding-h5 {
+        font-size: 21px;
+    }
+
+    /* FAQ Section Starts */
+    .faq img {
+        height: 100%;
+    }
+
+    
+    /* --------------------------- About Page CSS Start --------------------------- */
+    /* Get in touch Section Start */
+    .get-in-touch-contant .main-hedding-h2 {
+        font-size: 3em;
+        margin-bottom: 25px;
+    }
+
+
+    /* --------------------------- Service Page CSS Start --------------------------- */
+    /* Service Section Start */
+    .service-contant .main-hedding-h2 {
+        font-size: 2.5em;
+    }
+
+    /* Service Range Section Starts */
+    .service-range-contant .main-hedding-h2 {
+        font-size: 1.9em;
+    }
+    .service-range-contant .main-paregraph {
+        font-size: 16px;
+    }
+    .section-two .main-paregraph {
+        margin-bottom: 10px;
+    }
+    
+    /* testimonial section starts */
+    .testimonial {
+        height: 635px;
+    }
+
+    /* Get in touch Section Start */
+    .get-in-touch-about .get-in-touch-contant .main-hedding-h2 {
+        max-width: 100%;
+    }
+
+    /* --------------------------- Contact Page CSS Start --------------------------- */
+    /* Outstanding solution Secton Starts */
+    .outstanding-solution .section-two .main-paregraph {
+        margin: 30px 0px;
+    }
+
+    /* Contact Details Section Starts */
+    .contact-details .main-hedding-h2 {
+        font-size: 2.7em;
+    }
+    .dotted-lines {
+        width: 87px !important;
+        left: 130%;
+    }
+
+    .futer-oriented .about-two-contant .main-hedding-h2 {
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+    .futer-oriented .about-two-contant .btn-white {
+        margin: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    /* --------------------------- Home Page CSS Start --------------------------- */
+    /* Header Section Starts */
+    .container {
+        max-width: 900px;
+    }
+    .banner::before {
+        left: -13%;
+    }
+    .banner::after {
+        bottom: -100px;
+        left: 27%;
+    }
+    .banner-contant {
+        max-width: 800px;
+        margin-top: 11%;
+    }
+    .douts-victor {
+        right: -60px;
+    }
+    .progress .douts-victor {
+        right: -57px;
+    }
+    .progress .douts-victor {
+        right: -60px;
+    }
+
+
+    
+    /* Abour section Start */
+    .main-hedding-h2 {
+        font-size: 2.5em;
+    }
+    .main-paregraph {
+        margin-bottom: 26px;
+        margin-top: 11px;
+        font-size: 17px;
+    }
+
+    /* Our Prosess section Start */
+    .our-process-items {
+        padding-left: 75px;
+    }
+    .main-hedding-h5 {
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    .our-process .main-paregraph {
+        font-size: 17px;
+    }
+    .our-process .douts-victor {
+        left: -72px;
+    }
+    .first-img {
+        width: 400px;
+    }
+    .second-img {
+        width: 310px;
+        right: 32px;
+    }
+    .section-two .main-paregraph {
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+
+    /* Progress Section Starts */
+    .progress .first-img {
+        width: 340px;
+        height: 400px;
+    }
+    .progress .second-img {
+        Right: 0px;
+        top: 38px;
+        width: 400px;
+    }
+    .progress-hedding {
+        font-size: 26px;
+    }
+    .progress-items {
+        margin: 15px 0px;
+    }
+
+    /* FAQ Section Starts */
+    .faq .faq-contant .progress-hedding {
+        font-size: 23px;
+    }
+    .accordion-item-header::after {
+        font-size: 1.5rem;
+        left: 1.2rem;
+    }
+    .accordion-item-body-content {
+        font-size: 14px;
+    }
+    .faq .progress-hedding {
+        font-size: 26px;
+    }
+    .accordion-item-header {
+        padding: 0.5rem 1rem 0.5rem 3rem;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .faq-contant {
+        max-width: 85%;
+    }
+
+    /* Contact Us Section Starts */
+    .contact-us {
+        height: 678px;
+    }
+    .contact-box {
+        padding: 50px 10% 50px;
+    }
+    .contact-us .main-hedding-h2 {
+        font-size: 34px;
+    }
+    
+    /* --------------------------- About Page CSS Start --------------------------- */
+    /* About section starts */
+    .about-page .about .img-two {
+        right: -30px;
+    }
+
+    /* About Two Section Starts */
+    .about-two-contant .main-hedding-h2 {
+        font-size: 36px;
+    }
+    .about-two .main-paregraph {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .main-hedding-h5 {
+        margin: 0px;
+    }
+    .about-two .section-two .main-paregraph {
+        margin-bottom: 5px;
+    }
+
+     /* --------------------------- About Page CSS Start --------------------------- */
+    /* Get in touch Section Start */
+    .get-in-touch-contant .main-hedding-h2 {
+        font-size: 2.8em;
+    }
+
+    /* --------------------------- Service Page CSS Start --------------------------- */
+    /* Service Section Start */
+    .service-page .service-box {
+        padding: 35px 20px 35px;
+    }
+    .service-icon-wrap {
+        margin-bottom: 10px;
+    }
+    .service-page .services .service-box .right-arrow {
+        bottom: -44px;
+    }
+
+    /* Service Range Section Starts */
+    .service-range-contant .main-hedding-h2 {
+        font-size: 2em;
+    }
+    .service-range .section-in {
+        margin: 20px 0px;
+    }
+    .service-range-gred {
+        margin: 25px 0px;
+    }
+    .lets-get-box .main-hedding-h2 {
+        font-size: 2.5em;
+    }
+    
+    /* testimonial section starts */
+    .testimonial-card {
+        padding: 30px 15px;
+    }
+    .testimonial .slick-dots {
+        top: 450px;
+    }
+
+    /* Futer Oriented Section Start */
+    .section-two .main-paregraph {
+        margin-bottom: 5px;
+    }
+    .futer-oriented .about-two-contant .main-paregraph {
+        font-size: 18px;
+    }
+
+    /* Contact Form Section Start */
+    .contact-form-contant .main-hedding-h5 {
+        font-size: 18px;
+    }
+    .contact-form {
+        margin-top: 25px;
+    }
+    
+}
+
+@media only screen and (max-width: 1080px) {
+    /* --------------------------- Home Page CSS Start --------------------------- */
+    /* Abour section Start */
+    .about .douts-victor {
+        right: -65px;
+    }    
+
+}
+@media only screen and (max-width: 1024px) {
+    /* --------------------------- Home Page CSS Start --------------------------- */
+    /* Header Section Starts */
+    .container {
+        max-width: 825px;
+    }
+    .manu-item a {
+        padding: 11px 25px;
+    }
+
+    /* Banner section starts */
+    .banner::before {
+        left: -15%;
+    }
+    .banner-contant {
+        max-width: 540px;
+        margin-top: 14%;
+    }
+    .banner-hedding {
+        font-size: 46px;
+        line-height: 55px;
+    }
+    .banner-paregraph {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* Facts Section Start */
+    .facts .main-paregraph {
+        font-size: 16px;
+    }
+    .facts-icons-wrap {
+        height: 45px;
+    }
+
+    /* Service Section Starts */
+    .service-text {
+        margin-bottom: 70px;
+    }
+    .service-box {
+        padding: 35px 35px 50px;
+    }
+    
+    /* Our Work Process Section Start */
+    .our-work-process-contant {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .our-work-process-contant .main-hedding-h2 {
+        font-size: 2.2em;
+    }
+
+
+    /* --------------------------- Service Page CSS Start --------------------------- */
+    /* Service section starts */
+    .service-contant .main-hedding-h2 {
+        font-size: 2.2em;
+    }
+    .service-contant {
+        max-width: 685px;
+    }
+    .service-box {
+        height: 100%;
+    }
+
+    /* Service Range Section Starts */
+    .service-range-gred {
+        margin-top: 0px;
+    }
+    .lets-get-box {
+        padding: 37px 0px;
+        height: 285px;
+    }
+    .fact-count {
+        margin-top: 50px;
+    }
+ 
+    /* testimonial section starts */
+    .testimonial {
+        height: 555px;
+    }
+    .testimonial .slick-dots {
+        top: 415px;
+    }
+    .get-in-touch-about {
+        margin-top: 370px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    /* --------------------------- Home Page CSS Start --------------------------- */
+    /* Header Section Starts */
+    .container {
+        max-width: 700px;
+    }
+    .btn {
+        padding: 10px 20px;
+    }
+    .manu-item a {
+        padding: 11px 20px;
+    }
+
+    /* Banner Section Starts */
+    .banner::before {
+        left: -19%;
+    }
+    .banner::after {
+        width: 48%;
+    }
+    .banner::after {
+        bottom: -100px;
+        left: 23%;
+    }
+
+    /* Footer Section Starts */
+    .main-footer .width-33 {
+        width: 100%;
+    }
+    .main-footer .width-66 {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .footer-logo-wrap {
+        text-align: center;
+    }
+    .main-footer .main-paregraph {
+        margin: 20px auto;
+
+    }
+    .footer-icon ul {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Abour section Start */
+    .width-43 {
+        width: 50% !important;
+    }
+    .width-57 {
+        width: 50% !important;
+    }
+    .main-hedding-h2 {
+        font-size: 2.2em;
+    }
+    .about .douts-victor {
+        right: -24px;
+        top: -50px;
+    }
+    .main-paregraph {
+        font-size: 15px;
+    }
+    .main-span {
+        margin-bottom: 5px;
+    }
+    .box-y-lg-center {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Facts Section Start */
+    .main-hedding-h5 {
+        font-size: 20px;
+        margin: 5px 0px;
+    }
+    .facts .section-in {
+        padding: 0px 10px;
+        margin: 5px 0px;
+    }
+    .facts-text-wrap {
+        padding-top: 10px;
+    }
+    .main-paregraph {
+        margin-top: 5px;
+        line-height: 25px;
+    }
+    .facts .main-paregraph {
+        font-size: 14px;
+    }
+
+    /* Our Prosess section Start */
+    .first-img {
+        width: 320px;
+    }
+    .second-img {
+        width: 245px;
+        top: 54px;
+        right: 0px;
+    }
+    .main-hedding-h5 {
+        font-size: 19px;
+    }
+    .our-process .main-paregraph {
+        font-size: 16px;
+    }
+    .our-process .douts-victor {
+        left: -30px;
+    }
+
+    /* Service Section Starts */
+    .douts-victor {
+        right: -30px;
+        top: -72px;
+    }
+    .service .section-in {
+        padding: 0px 10px;
+    }
+    .service-box {
+        padding: 30px 20px 40px;
+    }
+    .service-icon-wrap {
+        margin-bottom: 10px;
+    }
+    .service {
+        height: 510px;
+    }
+
+    /* Progress section Start */
+    .progress .first-img {
+        width: 297px;
+        height: 350px;
+    }
+    .progress .second-img {
+        width: 320px;
+        top: 45px;
+    }
+    .progress-hedding {
+        margin-bottom: 30px;
+    }
+    .progress .douts-victor {
+        right: -30px;
+    }
+    
+    /* FAQ Section Starts */
+    .faq .faq-contant .progress-hedding {
+        font-size: 19px;
+    }
+    .accordion-item-header {
+        font-size: 14px;
+    }
+
+    /* Pricing Section Starts */
+    .pricing-text {
+        max-width: 500px;
+        margin: 0 auto 80px;
+    }
+    .pricing-text .main-hedding-h2 {
+        margin: 0%;
+    }
+    .pricing-text .pricing .main-paregraph {
+        margin: 30px auto;
+    }
+    .pricing-box {
+        padding: 35px 20px 30px;
+    }
+    .pricing-span {
+        font-size: 12px;
+        padding: 10px 43px;
+    }
+    .pricing-price {
+        font-size: 45px;
+    }
+    .pricing-features li {
+        font-size: 15px;
+    }
+    .pricing-hidden-fees {
+        font-size: 14px;
+    }
+
+    /* Free Consultation Section Start */
+    .free-consultation-text .main-hedding-h2 {
+        max-width: 725px;
+        font-size: 2.5em;
+    }
+    .free-consultation-text .main-paregraph {
+        margin: 30px auto;
+    }
+
+    /* Contact Us Section Starts */
+    .contact-us {
+        height: 650px;
+    }
+    .contact-us .main-hedding-h2 {
+        font-size: 30px;
+    }
+    .contact-box {
+        padding: 50px 5% 50px;
+    }
+    .address-details .main-paregraph {
+        font-size: 15px;
+    }
+    .contact-form {
+        margin-top: 40px;
+    }
+
+
+    /* --------------------------- About Page CSS Start --------------------------- */
+    /* Banner Section Starts */
+    .second-banner .banner-contant {
+        margin-top: 0px;
+    }
+    .second-banner .banner-hedding {
+        margin-bottom: 30px;
+    }
+
+    /* footer section starts */
+    .footer-icon {
+        margin-top: 10px;
+    }
+    /* About section starts */
+    .about-page .about .main-paregraph {
+        margin: 18px 0px;
+    }
+    .about-page .about .main-hedding-h2 {
+        font-size: 2.2em;
+    }
+    .about .main-hedding-h5 {
+        margin: 0;
+        font-size: 17px;
+    }
+    .about-gred .main-paregraph {
+        margin: 5px 0px !important;
+    }
+    .about-page .about .img-one {
+        width: 85%;
+    }
+    .about-page .about .img-two {
+        width: 85%;
+        top: 70px;
+        left: 70px;
+    }
+
+    /* about two section starts */
+    .about-two-contant .main-hedding-h2 {
+        font-size: 33px;
+    }
+    .about-two-img-icon {
+        height: 40px;
+    }
+    .about-two-text .main-hedding-h5 {
+        font-size: 19px;
+    }
+    .about-two .section-two .section-in .section-two .section-in {
+        padding: 0px;
+    }
+
+    /* Our Work Process Section Start */
+    .our-work-process-contant {
+        max-width: 500px;
+    }
+    .our-work-process-contant .main-hedding-h2 {
+        font-size: 1.8em;
+    }
+    .our-work-process .section-wrap {
+        margin-top: 40px;
+    }
+    .our-work-process-text .main-paregraph {
+        max-width: 100%;
+    }
+
+    /* Get in touch Section Start */
+    .get-in-touch {
+        background-size: cover;
+        height: auto;
+    }
+    .get-in-touch-contant .main-hedding-h2 {
+        font-size: 2em;
+    }
+    .section-two .main-paregraph {
+        margin-bottom: 0px;
+    }
+
+    /* --------------------------- Service Page CSS Start --------------------------- */
+    /* Service section starts */
+    .service-page .services .section-in {
+        padding: 0px 10px;
+    }
+    .service-page .services .service-box .main-hedding-h5 {
+        font-size: 19px;
+    }
+    .service-page .services .service-box .main-paregraph {
+        font-size: 15px;
+    }
+
+    /* Service Range Section Starts */
+    .service-range-gred .main-paregraph {
+        font-size: 16px;
+    }
+
+    /* Facts Section Start */
+    .fact-count {
+        margin-top: 50px;
+    }
+    .fact-count .main-hedding-h5 {
+        font-size: 18px;
+    }
+    .section-four {
+        width: 50%;
+        margin: 20px 0px;
+    }
+
+    /* testimonial section starts */
+    .get-in-touch-about .get-in-touch-contant .main-hedding-h2 {
+        font-size: 2.0em;
+    }
+
+    /* --------------------------- Contact Page CSS Start --------------------------- */
+    /* Outstanding solution Secton Starts */
+    .outstanding-solution .section-two .main-paregraph {
+        margin: 15px 0px 30px;
+    }
+
+    /* Contact Details Section Starts */
+    .contact-details .main-hedding-h2 {
+        font-size: 2.5em;
+    }
+    .dotted-lines {
+        width: 75px !important;
+        left: 120%;
+    }
+
+    /* Futur Oriented section starts */
+    .futer-oriented .about-two-contant .main-hedding-h2 {
+        font-size: 30px;
+    }
+    .futer-oriented .about-two-contant .main-paregraph {
+        font-size: 16px;
+    }
+    .futer-oriented-links {
+        font-size: 15px;
+        margin: 5px 0px;
+    }
+    .futer-oriented .section-in .section-wrap .section-in {
+        padding: 0%;
+    }
+
+    /* Contact form section starts */
+    .fild-div {
+        margin: 7px 0px;
+    }
+    .contact-form {
+        margin-top: 20px;
+    }
+    .contact-form-section .contact-form button {
+        padding: 10px 40px;
+    }
+    .fild-div .fild {
+        padding: 12px;
+    }
+    .section-in {
+        padding: 0px 5px;
+    }
+
+    /* --------------------------- Section Details Page CSS Start --------------------------- */
+    .service-details .section-two {
+        width: 100%;
+    }
+ 
+    .service-details-contant-wrap .main-paregraph {
+        line-height: 30px;
+        margin: 30px 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    /* --------------------------- Home Page CSS Start --------------------------- */
+    /* Header Section Starts */
+    .container {
+        max-width: 575px;
+    }
+    .manu {
+        display: none;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 73px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .toggle-btn-wrap {
+        display: flex;
+    }
+    .main-header-wrap {
+        position: relative;
+    }
+    .manu-item a {
+        color: #39374d;
+    }
+    .manu-item a:hover {
+        transition: all 0.5s;
+        background-color: #eee;
+        color: #21d368;
+        border-color: transparent;
+    }
+    .manu-item a span {
+        margin: 0 auto;
+    }
+    .manu-all {
+        display: block;
+    }
+    .header-btn-wrap {
+        justify-content: center;
+    }
+    .header-btn-wrap .btn{
+        background-color: transparent;
+        color: #21d368;
+        border: 2px solid #21d368;
+    }
+    .header-btn-wrap .btn:hover {
+        transition: all 0.5s;
+        color: #fff;
+        background-color: #21d368;
+    }
+    .toggle-btn-active {
+        display: block;
+    }
+    .active a {
+        border-color: transparent;
+        color: #21d368;
+        background-color: #eee;
+    }
+    .banner::before {
+        width: 55%;
+        left: -25%;
+        top: 108px;
+    }
+    .banner::after {
+        width: 57%;
+        bottom: -102px;
+    }
+
+    /* Footer Section Starts */
+    .main-footer .section-four {
+        width: 50%;
+        text-align: center;
+    }
+    .copyright-footer .container {
+        display: block;
+        text-align: center;
+    }
+    .copyright-footer {
+        padding-bottom: 20px;
+    }
+    .copyright-text {
+        display: block;
+    }
+    .footer-manu li {
+        margin: 15px 0px;
+    }
+
+    /* Abour section Start */
+    .about .width-57 {
+        margin-top: 30px;
+    }
+    .width-43,
+    .width-57 {
+        width: 100% !important;
+    }
+    .section-two {
+        margin: 30px 0px;
+    }
+    .main-paregraph {
+        max-width: 100%;
+    }
+    .section-padding {
+        padding: 45px 0px;
+    }
+
+    /* Facts Section Start */
+    .section-three {
+        margin: 30px 0px;
+        width: 100%;
+    }
+    .main-hedding-h5 {
+        font-size: 23px;
+        margin: 10px 0px;
+    }
+    .facts .main-paregraph {
+        font-size: 18px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .facts-icons-wrap {
+        height: 55px;
+    }
+
+    /* Our Prosess section Start */
+    .first-img {
+        width: 400px;
+    }
+    .second-img {
+        width: 315px;
+        top: 20px;
+    }
+    .our-process .douts-victor {
+        left: -72px;
+    }
+    .our-process .douts-victor {
+        left: -24px;
+        bottom: auto;
+        top: -80px;
+    }
+
+    /* Service Section Starts */
+    .service {
+        height: 950px;
+    }
+    .service .main-paregraph {
+        max-width: 100%;
+    }
+    .service-text {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .service .main-hedding-h2 {
+        font-size: 2em;
+    }
+    .service .section-three {
+        margin: 11px 0px;
+    }
+    .service-text {
+        margin-bottom: 25px;
+    }
+    .douts-victor {
+        right: -66px;
+        top: -565px;
+    }
+
+    /* Progress section Start */
+    .progress .first-img {
+        width: 400px;
+        height: auto;
+    }
+    .progress .second-img {
+        width: 520px;
+        top: 50px;
+    }
+    .progress .douts-victor {
+        right: -30px;
+        top: 270px;
+    }
+
+    /* FAQ Section Starts */
+    .faq .section-two {
+        width: 100%;
+        margin: 0px;
+    }
+    .faq .section-two:first-child .section-in {
+        padding: 0%;
+    }
+    .faq .progress-hedding {
+        margin-top: 25px;
+    }
+    .faq-contant {
+        margin: 50px 0px;    
+    }
+
+    /* Pricing Section Starts */
+    .pricing-price {
+        font-size: 52px;
+    }
+    .pricing-features li {
+        font-size: 18px;
+    }
+    .pricing-hidden-fees {
+        font-size: 15px;
+    }
+    .pricing-span {
+        font-size: 14px;
+    }
+    .pricing-box {
+        margin: 0;
+    }
+    .pricing .section-three {
+        margin: 15px 0px;
+    }
+    .pricing .main-hedding-h2 {
+        font-size: 2em;
+    }
+    .pricing-price {
+        font-size: 45px;
+    }
+
+    /* Free Consultation Section Start */
+    .free-consultation-text .main-hedding-h2 {
+        max-width: 470px;
+        font-size: 2em;
+    }
+
+    /* Contact Us Section Starts */
+    .contact-us {
+        background-size: cover;
+        height: auto;
+    }
+    .contact-box {
+        padding: 50px 10% 50px;
+    }
+    .contact-us .section-two {
+        width: 100%;
+    }
+    .contact-details-wrap {
+        margin: 0 auto;
+    }
+    .address-details .main-hedding-h5 {
+        margin-bottom: 8px;
+    }
+    .contact-us .section-two .section-in {
+        padding: 0;
+    }
+    .contact-details-wrap {
+        width: 100%;
+    }
+
+
+    /* --------------------------- About Page CSS Start --------------------------- */
+    /* Header section starts */
+    .second-header .active a {
+        color: #21d368;
+    }
+    /* about section starts */
+    .about-page .about .section-wrap .section-two {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .about .section-wrap .section-two .section-wrap .section-two {
+        width: 50%;
+    }
+    .about-page .about .img-one {
+        position: relative;
+        margin-bottom: 130px;
+    }
+
+    /* about two section starts */
+    .about-page .about .img-two {
+        left: 80px;
+    }
+    .about-two .section-two {
+        width: 100%;
+    }
+    .about-two .section-two .section-in {
+        padding: 0%;
+    }
+    .about-two-contant {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .about-two .section-wrap .section-two .section-wrap .section-two {
+        width: 50%;
+    }
+    .about-two .section-wrap .section-two .section-wrap .section-two .section-in {
+        padding: 10px 0px;
+    }
+
+    /* Our Work Process Section Start */
+    .our-work-process-text .main-paregraph {
+        max-width: 70%;
+    }
+    .section-three {
+        margin: 15px 0px;
+    }
+    .bottom-btn {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* Get in touch Section Start */
+    .get-in-touch-contant {
+        text-align: center;
+    }
+    .section-two {
+        margin: 15px 0px;
+    }
+
+    /* --------------------------- Service Page CSS Start --------------------------- */
+    /* Service section starts */
+    .service-contant {
+        max-width: 500px;
+    }
+    .service-contant .main-hedding-h2 {
+        font-size: 1.9em;
+    }
+    .service-page .services .service-box .main-hedding-h5 {
+        font-size: 20px;
+    }
+    .service-page .services .service-box .main-paregraph {
+        font-size: 17px;
+    }
+    .service-page .service-box {
+        padding: 35px 30px 35px;
+    }
+
+    /* Service Range Section Starts */
+    .service-range-contant .main-hedding-h2 {
+        font-size: 1.6em;
+    }
+    .service-range .section-in {
+        margin: 0px;
+
+    }
+    .service-range {
+        height: 785px;
+    }
+    .service-range-contant .section-two {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .service-range-contant {
+        margin-bottom: 20px;
+    }
+    
+    .lets-get-box {
+        padding: 65px 0px;
+    }
+
+    /* Facts Section Start */
+    .fact-count {
+        margin-top: 80px;
+    }
+
+    /* testimonial section starts */
+    .testimonial {
+        height: 500px;
+    }
+    .testimonial .slick-dots {
+        top: 350px;
+    }
+
+    /* Get in touch Section Start */
+    .get-in-touch .width-43 .section-in {
+        margin: 25px 0px 150px;
+    }
+    .btn-circul {
+        width: 70px;
+        height: 70px;
+    }
+
+
+    /* --------------------------- Contact Page CSS Start --------------------------- */
+    /* Outstanding solution Secton Starts */
+    .outstanding-solution .section-two {
+        width: 100%;
+    }
+    .outstanding-solution .about-two-contant {
+        max-width: 100%;
+    }
+    .outstanding-solution .about-two-contant .main-hedding-h2 {
+        font-size: 28px;
+    }
+
+    /* Contact Details Section Starts */
+    .dotted-lines {
+        display: none;
+    }
+    .contact-details .main-hedding-h2 {
+        font-size: 2.1em;
+    }
+    .contact-details .main-hedding-h2 {
+        font-size: 1.6em;
+        margin: 15px 0px;
+    }
+    .contact-details .contact-details-contant {
+        margin-bottom: 25px;
+    }
+
+    /* Futer Oriented Section Start */
+    .futer-oriented .pl-0 {
+        padding: 0;
+    }
+    .futer-oriented .section-two {
+        width: 100%;
+    }
+    .futer-oriented .about-two-contant {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .futer-oriented .about-two-contant .section-wrap {
+        margin-top: 20px;
+    }
+    .futer-oriented .about-two-contant .section-wrap .section-two {
+        width: 50%;
+        text-align: left;
+        margin: 0px 0px;
+    }
+    .futer-oriented-links {
+        font-size: 20px;
+    }
+    .futer-oriented .about-two-contant .btn {
+        margin-top: 25px;
+    }
+
+    /* contact form section stars */
+    .contact-form-section .section-two {
+        width: 100%;
+    }
+    .contact-form-contant .main-hedding-h5 {
+        font-size: 23px;
+    }
+    .contact-form-contant .section-two {
+        margin: 0px 0px;
+    }
+    .fild-div .fild {
+        padding: 15px;
+    }
+    .contact-form {
+        margin-bottom: 10px;
+    }
+    .service-details-img-wrap {
+        height: 300px;
+    }
+
+
+}
+
+@media only screen and (max-width: 710px) {
+    /* --------------------------- Home Page CSS Start --------------------------- */
+    .douts-victor {
+        right: -33px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    /* --------------------------- Home Page CSS Start --------------------------- */
+    /* Header Section Starts */
+    .container {
+        max-width: 90%;
+    }
+    .banner::before {
+        left: -28%;
+    }
+    .banner .container::before {
+        top: -105px;
+    }
+    .banner::after {
+        bottom: -132px;
+    }
+
+    /* Banner Section Starts */
+    .banner-hedding {
+        font-size: 37px;
+        line-height: 45px;
+    }
+    .banner-paregraph {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .btn {
+        font-weight: 400;
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+
+    /* Service Section Starts */
+    .douts-victor {
+        right: -29px;
+        top: -590px;
+    }
+    .douts-victor {
+        right: -25px;
+        top: -584px;
+    }
+
+    /* Progress section Start */
+    .progress .first-img {
+        width: 310px;
+    }
+    .progress .second-img {
+        width: 385px;
+    }
+
+    /* Pricing Section Starts */
+    .pricing .main-hedding-h2 {
+        font-size: 2em;
+    }
+    .pricing .main-paregraph {
+        margin: 30px auto;
+    }
+
+    /* Free Consultation Section Start */
+    .free-consultation-text .main-hedding-h2 {
+        max-width: 400px;
+        font-size: 1.7em;
+    }
+    .free-consultation-text .main-paregraph {
+        margin: 15px auto;
+    }
+
+
+    /* --------------------------- About Page CSS Start --------------------------- */
+    /* Banner Section Starts */
+    .second-banner .banner-hedding {
+        font-size: 26px;
+    }
+
+    /* about section starts */
+    .about-page .about .img-two {
+        left: 65px;
+        top: 50px;    
+    }
+    .about-page .about .img-two {
+        left: 60px;
+        top: 35px;
+    }
+    .about-page .about .img-one {
+        margin-bottom: 90px;
+    }
+
+    /* about two section starts */
+    .about-two-contant .btn {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+    }
+    .about-two .section-wrap .section-two .section-wrap {
+        margin-top: 30px;
+    }
+    .our-work-process-contant .main-hedding-h2 {
+        font-size: 1.6em;
+    }
+
+    /* Get in touch Section Start */
+    .get-in-touch-contant .main-hedding-h2 {
+        font-size: 1.8em;
+    }
+
+    /* --------------------------- Service Page CSS Start --------------------------- */
+    /* Service section starts */
+    .service-contant {
+        max-width: 425px;
+    }
+    .service-contant .main-hedding-h2 {
+        font-size: 1.6em;
+    }
+
+     /* Service Range Section Starts */
+     .service-range-gred .section-two {
+        width: 100%;
+    }
+    .service-range-contant .main-hedding-h2 {
+        font-size: 1.4em;
+        margin-bottom: 0px;
+    }
+    .service-range .section-two {
+        margin: 10px 0px;
+    }
+    .lets-get-box .main-hedding-h2 {
+        font-size: 1.8em;
+    }
+    .service-range {
+        height: 910px;
+    }
+    .service-range-contant {
+        justify-content: center;
+    }
+    .lets-get-box {
+        height: 255px;
+        padding: 60px 0px;
+    }
+
+    /* Futer Oriented Section Start */
+    .futer-oriented .about-two-contant .section-wrap .section-two {
+        width: 100%;
+    }
+    .futer-oriented .about-two-contant .btn {
+        width: 125px;
+    }
+
+    /* --------------------------- Section Details Page CSS Start --------------------------- */
+    .service-details .contact-form-contant .main-hedding-h5 {
+        max-width: 225px;
+        margin: 0% auto;
+    }
+    .service-details-img-wrap {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 539px) {
+    .service-range {
+        height: 1015px;
+    }
+    .service-details-img-wrap {
+        height: 225px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /* --------------------------- Home Page CSS Start --------------------------- */
+    /* Banner Section Starts */
+    .banner-hedding {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .banner-contant {
+        margin-top: 120px;
+    }
+    .banner-btn {
+        margin: 38px 0px;
+    }
+    .banner::before {
+        left: -38%;
+    }
+    .banner .container::before {
+        top: -145px;
+    }
+    .banner::after {
+        bottom: -162px;
+    }
+
+    /* Footer Section Starts */
+    .section-padding {
+        padding: 60px 0px;
+    }
+    .main-footer .section-four {
+        width: 100%;
+    }
+    #toTop {
+        bottom: 20px;
+    }
+    
+    /* Abour section Start */
+    .about .douts-victor {
+        right: -15px;
+        top: -80px;
+    }
+    .main-span {
+        font-size: 11px;
+    }
+    .main-hedding-h2 {
+        font-size: 2em;
+    }
+
+    /* Facts Section Start */
+    .main-footer .width-66 {
+        margin-top: 0px;
+    }
+    
+    /* Our Prosess section Start */
+    .first-img {
+        width: 255px;
+    }
+    .second-img {
+        width: 193px;
+        top: 18px;
+    }
+    .main-hedding-h5 {
+        font-size: 20px;
+    }
+    .our-process-items {
+        padding-left: 65px;
+    }
+    .our-process-icon {
+        width: 45px;
+        top: -1px;
+        left: 5px;
+    }
+    .section-two .main-paregraph {
+        line-height: 23px;
+    }
+    .our-process .width-43 {
+        margin-bottom: 0px;
+    }
+
+    /* Service Section Starts */
+    .douts-victor {
+        right: -15px;
+        top: -660px;
+    }
+    .service .main-hedding-h2 {
+        font-size: 1.7em;
+    }
+    .bottom-btn {
+        margin-top: 55px;
+    }
+
+    /* Progress section Start */
+    .progress .douts-victor {
+        right: -15px;
+        top: 155px;
+    }
+    .progress .first-img {
+        width: 250px;
+        height: 285px;
+    }
+    .progress .second-img {
+        width: 260px;
+        top: 38px;
+    }
+    .progress .width-43,
+    .progress-hedding {
+        margin-top: 0px;
+    }
+
+    /* FAQ Section Starts */
+    .faq-contant {
+        max-width: 90%;
+    }
+
+    /* Pricing Section Starts */
+    .pricing .main-hedding-h2 {
+        font-size: 1.4em;
+    }
+
+    /* Free Consultation Section Start */
+    .free-consultation-text .main-hedding-h2 {
+        font-size: 1.6em;
+    }
+    .free-consultation-text .main-paregraph {
+        margin: 20px auto;
+    }
+
+    /* Contact Us Section Starts */
+    .contact-box {
+        padding: 50px 5% 50px;
+    }
+    
+    /* --------------------------- About Page CSS Start --------------------------- */
+    /* About Section starts */
+    .about-page .about .img-two {
+        left: 45px;
+    }
+    .about .section-wrap .section-two .section-wrap .section-two {
+        width: 75%;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .about-page .about .img-one {
+        margin-bottom: 70px;
+    }
+    .about-two .section-wrap .section-two .section-wrap .section-two {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .about-two .section-two .main-paregraph {
+        margin: 0 auto;
+    }
+
+    /* Our Work Process Section Start */
+    .our-work-process-text .main-paregraph {
+        max-width: 90%;
+    }
+
+    /* Get in touch Section Start */
+    .get-in-touch-contant .main-hedding-h2 {
+        font-size: 1.7em;
+    }
+
+    /* --------------------------- Service Page CSS Start --------------------------- */
+    /* Service section starts */
+    .service-contant {
+        max-width: 270px;
+    }
+    .service-contant .main-hedding-h2 {
+        font-size: 1.5em;
+        margin: 20px 0px;
+    }
+    .service-page .service-box {
+        padding: 35px 20px 35px;
+    }
+    .service-icon-wrap {
+        height: 55px;
+    }
+
+    /* Service Range Section Starts */
+    .service-range-contant .section-two {
+        width: 100%;
+    }
+    .service-range .section-in {
+        padding: 0px 10px;
+    }
+    .service-range-contant .section-in {
+        padding: 0;
+    }
+    .lets-get-box .main-hedding-h2 {
+        font-size: 1.4em;
+    }
+    .lets-get-box {
+        height: 182px;
+        padding: 30px 0px;
+    }
+    .service-range {
+        height: 930px;
+    }
+    .fact-count {
+        margin-top: 55px;
+    }
+    .fact-count .section-four {
+        width: 100%;
+    }
+
+    /* testimonial section starts */
+    .testimonial .slick-dots {
+        top: 360px;
+    }
+    .testimonial-contant .main-hedding-h2 {
+        font-size: 1.8em;
+    }
+    .get-in-touch-about {
+        margin-top: 390px;
+    }
+
+
+    /* --------------------------- Contact Page CSS Start --------------------------- */
+    /* Outstanding solution Secton Starts */
+    .outstanding-solution .about-two-contant .main-hedding-h2 {
+        font-size: 26px;
+    }
+
+    /* Futer Oriented Section Start */
+    .futer-oriented-links {
+        font-size: 17px;
+    }
+    .futer-oriented .about-two-contant .section-wrap {
+        margin-top: 34px;
+    }
+
+    /* Contact form section starts */
+    .contact-form-contant .main-hedding-h5 {
+        font-size: 18px;
+    }
+    .service-details-contant-wrap .main-paregraph {
+        line-height: 25px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    /* Service Section Starts */
+    .service {
+        height: 1010px;
+    }
+
+    /* Service Details Page */
+    .service-details-img-wrap {
+        height: 180px;
+    }
+}
+@media only screen and (max-width: 354px) {
+    .service-range {
+        height: 1030px;
+    }
+    .testimonial .slick-dots {
+        top: 425px;
+    }
+    .get-in-touch-about {
+        margin-top: 450px;
+    }
+    .futer-oriented .section-in .section-wrap .section-in {
+        text-align: center;
+    }
+    
+    /* Service Details Page */
+    .service-details-img-wrap {
+        height: 150px;
+    }
+    
+}
+@media only screen and (max-width: 322px) {
+    /* Service Section Starts */
+    .service {
+        height: 1100px;
+    }
+}

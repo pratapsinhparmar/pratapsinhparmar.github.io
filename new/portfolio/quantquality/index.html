@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="#" />
+        <meta name="keywords" content="#" />
+        <meta name="author" content="#" />
+        <meta name="website" content="#" />
+        <meta name="email" content="#" />
+        <meta name="version" content="1.1.0" />
+	    <title>Quant Quality</title>
+
+        <!-- Favicon Icon Links -->
+        <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="512x512" href="images/favicon/android-chrome-512x512.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+        <link rel="manifest" href="images/favicon/site.webmanifest">
+
+		<!-- Bootstrap core CSS -->
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+	    <link href="css/swiper.min.css" type="text/css" rel="stylesheet" />
+	    
+        <!-- Custom  Css -->
+	    <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+	    <link href="css/custom.css" rel="stylesheet" type="text/css" />
+
+	</head>
+
+	<body>
+
+        <!-- Hedding section Starts -->
+        <nav id="navbar" class="navbar navbar-expand-lg nav-light fixed-top sticky">
+            <div class="container" style="z-index: 3;">
+                <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i data-feather="menu"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <span class="logo-light-mode">
+                        <img src="images/logo-dark.png" class="l-dark" alt="">
+                        <img src="images/logo-light.png" class="l-light" alt="">
+                    </span>
+                    <img src="images/logo-light.png" class="logo-dark-mode" alt="">
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="navbar-navlist">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="service.html">Services</a>
+                            
+                            <ul class="dropdown-menu dropdown-box">
+                                <li class="submenu-dropdown">
+                                    <a class="dropdown-item d-flex" href="javascript:void()">Inspection| Sorting<span class="ml-auto">»</span></a>
+                                    <ul class="dropdown-menu submenu">
+                                        <li><a class="dropdown-item" href="service.html#inspection-visual-inspection">Visual Inspection</a></li>
+                                        <li><a class="dropdown-item" href="service.html#inspection-gauge-and-torque-checks">Gauge & Torque checks</a></li>
+                                        <li><a class="dropdown-item" href="service.html#inspection-ai-machine-learning-detection">AI Machine learning Detection</a></li>
+                                        <li><a class="dropdown-item" href="service.html#inspection-endoscope-inspection">Endoscope Inspection</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="service.html#rework-repair">Rework | Repair</a></li>
+                                <li><a class="dropdown-item" href="service.html#containment-cs1-cs2">Containment | CS1 | CS2</a></li>
+                                <li><a class="dropdown-item" href="service.html#new-product-launch">New Product Launch</a></li>
+                                <li><a class="dropdown-item" href="service.html#on-site-quality-representation">On-site Quality Representation</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="technology.html">Technology</a>
+                            <ul class="dropdown-menu dropdown-box">
+                                <li><a class="dropdown-item" href="technology.html#customized-inspection-report">Customized Inspection Report</a></li>
+                                <li><a class="dropdown-item" href="technology.html#mobile-application">Mobile Application</a></li>
+                                <li><a class="dropdown-item" href="technology.html#web-application">Web Application</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="career.html">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                 <ul class="list-inline menu-social mb-0 ps-lg-4 ms-2">
+                    <li class="list-inline-item"><a class="log-out-icon" href="#"><i class="fa fa-user"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="side-navigation">
+                <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#home">
+                        <div class="side-navigation-name-wrap">
+                            <span class="side-navigation-name">Home</span>
+                        </div>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="#our-benefits">
+                        <div class="side-navigation-name-wrap">
+                            <span class="side-navigation-name">Our Benefits</span>
+                        </div>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="#ready">
+                        <div class="side-navigation-name-wrap">
+                            <span class="side-navigation-name">Ready to start</span>
+                        </div>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="#about-sec">
+                        <div class="side-navigation-name-wrap">
+                            <span class="side-navigation-name">About</span>
+                        </div>
+                    </a>
+                    <a class="list-group-item list-group-item-action" href="#are-you-look">
+                        <div class="side-navigation-name-wrap">
+                            <span class="side-navigation-name">Footer</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- Hedding section end -->
+
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        
+            <!-- Hero section starts -->
+            <section class="swiper-slider-hero position-relative d-block vh-100" id="home">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide d-flex align-items-center overflow-hidden">
+                            <div class="slide-inner slide-bg-image d-flex align-items-center" style="background: center center;" data-background="images/bg/home-1.jpg">
+                                <div class="bg-overlay"></div>
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-12">
+                                            <div class="title-heading text-center">
+                                                <h1 class="banner-hedding text-white title-dark fw-bold mb-3">We Provide the Best Quality Assurance Services</h1>
+                                                <p class="mx-auto animation-class animate">
+                                                    <span>W</span><span>e</span><span>&nbsp;</span><span>o</span><span>f</span><span>f</span><span>e</span><span>r</span><span>i</span><span>n</span><span>s</span><span>p</span><span>e</span><span>c</span><span>t</span><span>i</span><span>o</span><span>n</span><span>,</span><span>&nbsp;</span><span>s</span><span>o</span><span>r</span><span>t</span><span>i</span><span>n</span><span>g</span><span>,</span><span>&nbsp;</span><span>r</span><span>e</span><span>w</span><span>o</span><span>r</span><span>k</span><span>,</span><span>&nbsp;</span><span>c</span><span>o</span><span>n</span><span>t</span><span>a</span><span>i</span><span>n</span><span>m</span><span>e</span><span>n</span><span>t</span><span>,</span><span>&nbsp;</span><span>n</span><span>e</span><span>w</span><span>&nbsp;</span><span>p</span><span>r</span><span>o</span><span>d</span><span>u</span><span>c</span><span>t</span><span>&nbsp;</span><span>l</span><span>a</span><span>u</span><span>n</span><span>c</span><span>h</span><span>&nbsp;</span><span>a</span><span>n</span><span>d</span><span>&nbsp;</span><span>o</span><span>n</span><span>-</span><span>s</span><span>i</span><span>t</span><span>e</span><span>&nbsp;</span><span>e</span><span>n</span><span>g</span><span>i</span><span>n</span><span>e</span><span>e</span><span>r</span><span>i</span><span>n</span><span>g</span><span>&nbsp;</span><span>s</span><span>u</span><span>p</span><span>p</span><span>o</span><span>r</span><span>t</span><span>&nbsp;</span><span>a</span><span>t</span><span>&nbsp;</span><span>a</span><span>&nbsp;</span><span>u</span><span>t</span><span>o</span><span>m</span><span>o</span><span>t</span><span>i</span><span>v</span><span>e</span><span>&nbsp;</span><span>O</span><span>E</span><span>M</span><span>s</span><span>,</span><span>&nbsp;</span><span>T</span><span>i</span><span>e</span><span>r</span><span>&nbsp;</span><span>1</span><span>&nbsp;</span><span>&</span><span>&nbsp;</span><span>T</span><span>i</span><span>e</span><span>r</span><span>&nbsp;</span><span>2</span><span>&nbsp;</span><span>s</span><span>u</span><span>p</span><span>p</span><span>l</span><span>i</span><span>e</span><span>r</span><span>s</span><span>.</span>
+                                                </p>
+
+                                                <div class="mt-2 pt-2">
+                                                    <a href="contact.html" class="btn btn-primary">Contact us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="swiper-slide d-flex align-items-center overflow-hidden">
+                            <div class="slide-inner slide-inner-second slide-bg-image d-flex align-items-center" data-background="images/bg/home-2.jpg">
+                                <div class="bg-overlay"></div>
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-12">
+                                            <div class="title-heading text-center">
+                                                <h1 class="banner-hedding text-white title-dark fw-bold mb-3">We Bring the Best Technology for Collecting and Analyzing Details Inspection Reports.</h1>
+
+                                                <p class="mx-auto mb-0 animation-class animate">
+                                                    <span>2</span><span>4</span><span>&nbsp;</span><span>H</span><span>o</span><span>u</span><span>r</span><span>s</span><span>&nbsp;</span><span>W</span><span>e</span><span>b</span><span>&nbsp;</span><span>a</span><span>n</span><span>d</span><span>&nbsp;</span><span>M</span><span>o</span><span>b</span><span>i</span><span>l</span><span>e</span><span>&nbsp;</span><span>A</span><span>p</span><span>p</span><span>&nbsp;</span><span>A</span><span>c</span><span>c</span><span>e</span><span>s</span><span>s</span>
+                                                </p>
+
+                                                <p class="mx-auto mb-0 animation-class animate">
+                                                    <span>O</span><span>p</span><span>t</span><span>i</span><span>c</span><span>a</span><span>l</span><span>&nbsp;</span><span>C</span><span>h</span><span>a</span><span>r</span><span>a</span><span>c</span><span>t</span><span>e</span><span>r</span><span>&nbsp;</span><span>R</span><span>e</span><span>c</span><span>o</span><span>g</span><span>n</span><span>i</span><span>t</span><span>i</span><span>o</span><span>n</span><span>&nbsp;</span><span>[</span><span>O</span><span>C</span><span>R</span><span>]</span>
+                                                </p>
+
+                                                <p class="mx-auto mb-0 animation-class animate">
+                                                    <span>A</span><span>r</span><span>t</span><span>i</span><span>f</span><span>i</span><span>c</span><span>i</span><span>a</span><span>l</span><span>&nbsp;</span><span>I</span><span>n</span><span>t</span><span>e</span><span>l</span><span>l</span><span>i</span><span>g</span><span>e</span><span>n</span><span>c</span><span>e</span><span>&nbsp;</span><span>[</span><span>A</span><span>I</span><span>]</span>
+                                                </p>
+
+                                                <p class="mx-auto mb-0 animation-class animate">
+                                                    <span>M</span><span>a</span><span>c</span><span>h</span><span>i</span><span>n</span><span>e</span><span>&nbsp;</span><span>L</span><span>e</span><span>a</span><span>r</span><span>n</span><span>i</span><span>n</span><span>g</span><span>&nbsp;</span><span>[</span><span>M</span><span>L</span><span>]</span>
+                                                </p>
+                                                
+                                                <p class="mx-auto mb-0 animation-class animate">
+                                                    <span>D</span><span>e</span><span>e</span><span>p</span><span>&nbsp;</span><span>L</span><span>e</span><span>a</span><span>r</span><span>n</span><span>i</span><span>n</span><span>g</span><span>&nbsp;</span><span>[</span><span>D</span><span>L</span><span>]</span>
+                                                </p>
+
+                                                <div class="mt-2 pt-2">
+                                                    <a href="technology.html" class="btn btn-primary">Technology</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next border rounded-circle text-center"></div>
+                    <div class="swiper-button-prev border rounded-circle text-center"></div>
+
+                </div>
+            </section>
+            <!-- Hero section end -->
+            
+            <!-- Our Benefits Section starts -->
+            <section class="section bg-light" id="our-benefits">
+                <div class="container">
+                    <div class="justify-content-center">
+                        <div>
+                            <h2 class="text-center main-hedding">Our Benefits</h2>
+                            <p class="text-center">Services We Offer.</p>
+                            <div class="design-arrow"></div>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container mt-2">
+                    <div style="background: url('images/map.png') center center;">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="service-items">
+                                    <div class="feature-icon text-center padding1">
+                                        <div class="icon1-wrap">
+                                            <i class="fa fa-search fa-2x icon1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex features feature-primary">
+                                        <div class="flex-1 text-center">
+                                            <h5 class="mt-0 service-h">Inspection | Sorting</h5>
+                                            <p class="text-muted mb-0">Visual Inspections</p>
+                                            <p class="text-muted mb-0">Gauge & Torque Checks</p>
+                                            <p class="text-muted mb-0">AI Heighat Sensor Inspections</p>
+                                            <p class="text-muted mb-0">Vision Camera & Endoscope Inspections</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mt-4 pt-4 mt-sm-0 pt-sm-0">
+                                <div class="service-items">
+                                    <div class="feature-icon text-center padding1">
+                                        <div class="icon1-wrap">
+                                            <i class="fa fa-desktop fa-2x icon1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex features feature-primary">
+                                        <div class="flex-1 text-center">
+                                            <h5 class="mt-0 service-h">Technology </h5>
+                                            <p class="mb-0"><b>Web App | Mobile App</b></p>
+                                            <p class="text-muted mb-0">AI, ML, DL Technology </p>
+                                            <p class="text-muted mb-0">OCR Image Tagging Technology</p>
+                                            <p class="text-muted mb-0">Provide Real-Time Inspection Report</p>
+                                            <p class="text-muted mb-0">24 Hour Mobile & Web App Access </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mt-4 pt-4 mt-lg-0 pt-lg-0">
+                                <div class="service-items">
+                                    <div class="feature-icon text-center padding1">
+                                        <div class="icon1-wrap">
+                                            <i class="fa fa-cogs fa-2x icon1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex features feature-primary">
+                                        <div class="flex-1 text-center">
+                                            <h5 class="mt-0 service-h">Rework | Repair | Assembly</h5>
+                                            <p class="text-muted mb-0">Provide Technical Suggestions: Rework</p>
+                                            <p class="text-muted mb-0">Provide Chemicals: Remove Rust</p>
+                                            <p class="text-muted mb-0">Minimize Cost Impact: Rework NOK parts</p>
+                                            <p class="text-muted mb-0">Provide Solutions for Assembly & Kitting</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-4 col-md-6 mt-4 pt-4">
+                                <div class="service-items">
+                                    <div class="feature-icon text-center padding1">
+                                        <div class="icon1-wrap">
+                                            <i class="fa fa-life-ring fa-2x icon1"></i>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex features feature-primary">
+                                        <div class="flex-1 text-center">
+                                            <h5 class="mt-0 service-h">Containment | CS1 | CS2</h5>
+                                            <p class="text-muted mb-0">Containment: Quality issues</p>
+                                            <p class="text-muted mb-0">CS1: 100% End of Line inspections</p>
+                                            <p class="text-muted mb-0">CS2: 100% inspection at Warehouse</p>
+                                            <p class="text-muted mb-0">Customized Report: CS1 | CS2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-6 mt-4 pt-4">
+                                <div class="service-items">
+                                    <div class=" feature-icon text-center padding1">
+                                        <div class="icon1-wrap">
+                                            <i class="fa fa-rocket fa-2x icon1" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex features feature-primary">
+                                        <div class="flex-1 text-center">
+                                            <h5 class="mt-0 service-h">New Product Launch</h5>
+                                            <p class="text-muted mb-0">New Product Launch: Inspection [GP-12]</p>
+                                            <p class="text-muted mb-0">Identifying the Risks: Early Stage</p>
+                                            <p class="text-muted mb-0">New Assembly Line: Inspection</p>
+                                            <p class="text-muted mb-0">Customized Report: New Launch</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="col-lg-4 col-md-6 mt-4 pt-4">
+                                <div class="service-items">
+                                    <div class="feature-icon text-center padding1">
+                                        <div class="icon1-wrap">
+                                            <i class="fa fa-users fa-2x icon1" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex features feature-primary">
+                                        <div class="flex-1 text-center">
+                                            <h5 class="mt-0 service-h">On Site Quality Representation</h5>
+                                            <p class="text-muted mb-0">On-site Investigation & Fault Analysis</p>
+                                            <p class="text-muted mb-0">Proactively Identify Quality Concerns</p>
+                                            <p class="text-muted mb-0">Scrap Claim Monitoring & Negotiation</p>
+                                            <p class="text-muted mb-0">Improve Relationship with OEMs</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Our Benefits Section end -->
+
+            <!-- Ready to contact section strat -->
+            <section class="section" style="background: url('images/bg/bg1.jpg') center; background-attachment: fixed; background-size: cover;" id="ready">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <div class="section-title text-center">
+                                <h4 class="title text-white mb-3">Ready to start your next project now?</h4>
+                                <p class="mx-auto para-desc mb-0" style="color: #f2f2f2 !important;">Do you have a quality concern or seeking on-site engineering support? We are always here to support you and your customer needs.</p>
+                                <p class="mx-auto para-desc mb-0" style="color: #f2f2f2 !important;">Get in touch today! and fix the problem before its too late.</p>
+
+                                <div class="mt-4 pt-2">
+                                    <a href="contact.html#contact" class="btn btn-primary">Get Started !</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Ready to contact section end -->
+            
+            <!-- About section starts -->
+            <section class="section" id="about-sec">
+                <div class="container">
+                    <div class="justify-content-center">
+                        
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-12 order-md-1 order-2 mt-4 pt-2 d-flex align-items-center">
+                                <img src="images/2.png" class="img-fluid"  alt="work-image">
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-12 order-md-1 order-2 mt-4 pt-2 paregraph-size">
+                                <div class=" mb-4 pb-0">
+                                    <h4>About Quant Quality</h4>
+                                    <p class="text-muted"> Quant Quality LLC was invented by highly experienced quality professionals who have working exposure to the automotive industries [TESLA, GM, FORD, FCA, BMW] for Quality Assurance, Process Improvement, Operational Excellence & Customer Satisfaction.</p>
+                                    <p class="text-muted"> We are a global provider of quality assurances including sorting, inspection, rework, repair, New Product Launch  & on-site quality representation in Automotive, Electronics, and other industries.</p>
+                                    <p class="text-muted"> Quant itself stands for quantitative analysis; we are experts in collecting and analyzing inspection report data which can be used for root cause analysis to solve complex manufacturing problems quickly. Our web and mobile applications are designed to collect data with accuracy and automation by using the best technology such as Optical Character Recognition [OCR], Artificial Intelligence [AI], Machine Learning [ML], Deep Learning [DL], and Data Validation.</p>
+                                </div>
+                                
+                                <p class="text-muted"> Quant Quality LLC is registered in SPARKS, Nevada USA, and follows a set of principles based on our unique SPARKS core principle:</p>
+
+                                <p class="text-muted"><i class="fa fa-check" aria-hidden="true" style="color: #ed2931 ;"></i> <b>S [Safety]:</b> Safety first to protect yourself and our environment.</p>
+                                <p class="text-muted"><i class="fa fa-check" aria-hidden="true" style="color: #ed2931 ;"></i> <b>P [People]:</b> Prioritize the people working inside your manufacturing unit, your investors, and your eventual customers.</p>
+                                <p class="text-muted"><i class="fa fa-check" aria-hidden="true" style="color: #ed2931 ;"></i> <b>A [Accuracy]:</b> Aim for zero defects or errors. Our web and mobile app technology help to achieve higher accuracy.</p>
+                                <p class="text-muted"><i class="fa fa-check" aria-hidden="true" style="color: #ed2931 ;"></i> <b>R [Rate]:</b> Commitment to operational excellence, intelligent planning, and focused effort resulting in a higher productivity rate.</p>
+                                <p class="text-muted"><i class="fa fa-check" aria-hidden="true" style="color: #ed2931 ;"></i> <b>K [Kaizen]:</b> Excellence is not a destination; it is a continuous journey that never ends.</p>
+                                <p class="text-muted"><i class="fa fa-check" aria-hidden="true" style="color: #ed2931 ;"></i> <b>S [Satisfaction]:</b> We satisfy you, so you can satisfy your customers. SPARK= Satisfaction</p>
+
+                                <p class="text-muted"> We at Quant Quality LLC also aim to provide our customers with world-class products and services to augment the growth of their organization. Quant Quality is a customer and performance-driven organization, which is why your feedback, growth, and performance are of utmost importance to the provision of unparalleled services.</p>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About section end -->
+
+            <!-- Are you looking Section Strat -->
+            <section class="section are-you-looking" style="background: url('images/bg/home-1.jpg') center; background-attachment: fixed;" id="are-you-look">
+                <div class="bg-overlay"></div>
+                <div class="logo-icons-wrap">
+                    <div class="logo-icons-center-wrap">
+                        <div class="logo-icons-center">
+                            <img src="images/favicon.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-2 col-lg-1 like-thumbs">
+                                    <i class="fa fa-thumbs-o-up icon"></i>
+                                </div>
+                                <div class="col-md-10 col-lg-11 are-you-hedding">
+                                    <h4 class="text-white"> Are you looking for innovative inspection services and seeking engineering support?</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="d-flex h-100 align-items-center justify-content-center">
+                                <a href="contact.html" type="button" class="btn btn-light">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Are you looking Section End -->
+            
+            <!-- Footer section Start -->
+            <footer class="footer bg-footer" style="background:#333333 !important">
+                <div class="container">
+                    <div class="social-section">
+                        <div class="row">
+                            <ul class="txt-social list-unstyled social-icon foot-social-icon mb-0 ">
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/in/sanket-koshiya-a1b932112/" target="_blank" class="rounded"><i class="fa fa-linkedin" title="Linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href="https://m.facebook.com/sanket.koshiya.5" target="_blank" class="rounded"><i class="fa fa-facebook align-middle" title="facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/sanketdrashti__patel/" target="_blank" class="rounded"><i class="fa fa-instagram align-middle" title="instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="https://twitter.com/home" target="_blank" class="rounded"><i class="fa fa-twitter align-middle" title="twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="footer-py-60">
+                                <div class="row">
+                                    <div class="col-lg-4 col-12 mb-lg-0 mb-md-4 pb-lg-0 pb-md-2">
+                                        <a href="index.html" class="logo-footer">
+                                            <img src="images/logo-light.png" height="60" alt="">
+                                        </a>
+                                        <p class="mt-4 mb-0">Our mission is to continually raise the bar for the customer service by providing quality inspection and real-time data sharing technology to solve complex problems of manufacturing.</p>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 py-2">
+                                        <h5 class="footer-head footer-h d-flex">Quick Links</h5>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <ul class="footer-list mt-4">
+                                                    <li><a href="index.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Home</a></li>
+                                                    <li><a href="about.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>About Us</a></li>
+                                                    <li><a href="service.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Services</a></li>
+                                                    <li><a href="technology.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Technology</a></li>
+                                                    <li><a href="contact.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Contact us</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-6">
+                                                <ul class="footer-list mt-4">
+                                                    <li><a href="terms-of-use.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Terms of Use</a></li>
+                                                    <li><a href="terms-of-service.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Terms of Service</a></li>
+                                                    <li><a href="privacy-policy.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Privacy Policy</a></li>
+                                                    <li><a href="copyright-notice.html" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Copyright Notice</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-4 col-md-6 col-12 mt-4 mt-sm-0 py-2">
+                                        <h5 class="footer-head footer-h d-flex">Get In Touch</h5>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <ul class="footer-list mt-4">
+                                                    <li>Address: <a href="javascript:void();">Sparks, Nevada USA</a></li>
+                                                    <li>Phone: <a href="tel:+13238478271">+1 (323) 847 8271</a></li>
+                                                    <li>Email: <a href="mailto:sanketkoshiya@quantquality.co">sanketkoshiya@quantquality.co</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-py-30 footer-bar" style="background: black;">
+                    <div class="container text-center">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="">
+                                <div class="text-sm-start">
+                                    <p class="mb-0 text-center">© <script>document.write(new Date().getFullYear())</script> Quant Quality. Designed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer Section end -->
+
+        </div>
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top rounded-pill fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- JAVASCRIPTS -->
+        <script src="js/jquery-2.2.4.min.js"></script>
+        
+	    <script src="js/bootstrap.bundle.min.js"></script>
+	    <script src="js/swiper.min.js"></script>
+        <script src="js/gumshoe.js"></script>
+        <script src="js/feather.min.js"></script>
+        <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+	    
+        <!-- Custom -->
+	    <script src="js/plugins.init.js"></script>
+	    <script src="js/app.js"></script>
+	    <script src="js/script.js"></script>
+
+    </body>
+</html>
